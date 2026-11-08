@@ -1,12 +1,20 @@
 {
-  "version": "0.1.62",
-  "url": "0.1.62/stats-display-0.1.62.zip",
-  "sha256": "64525ef4653a017ffb21ba4090c186b1f513132bdc8909268f390a5f9534f918",
-  "size": 4030451,
-  "exe_sha256": "1c8c4468901cfb04037be4c4c0fc3755b9a1182c149871e64e6e79ad870ca78f",
-  "published": "2026-11-08T17:38:56Z",
-  "commit": "7967b6312a76e0aba445c9b2f19d160abde4c836",
+  "version": "0.1.65",
+  "url": "0.1.65/stats-display-0.1.65.zip",
+  "sha256": "d98518a6984106f66740e01b766ba4fdd3246a1b68585018e7140a93763d8c7b",
+  "size": 4030904,
+  "exe_sha256": "28c3878430a69282a4658b70944ce8458c348002dba8a71160fd838d18680b6b",
+  "published": "2026-11-08T19:37:25Z",
+  "commit": "a645e2e9d767f90704030b0b8660b2eb50fcc7dc",
   "changes": [
+    {
+      "version": "0.1.64",
+      "text": "Done tasks show when they were done, not how overdue they are"
+    },
+    {
+      "version": "0.1.63",
+      "text": "Settings: Updates before App, App last"
+    },
     {
       "version": "0.1.62",
       "text": "Update manifest from a GitHub Pages copy, zips only from the release directory"
