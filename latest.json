@@ -1,12 +1,44 @@
 {
-  "version": "0.1.67",
-  "url": "0.1.67/stats-display-0.1.67.zip",
-  "sha256": "e88e1b40230223d9198d533039d5a2cf4a12db12954d0d27883aadcb97aa79b5",
-  "size": 4034343,
-  "exe_sha256": "6009cac4dd10f53306e99869407de99421202196b4e85796951f66cbf03b7e90",
-  "published": "2026-11-08T19:58:33Z",
-  "commit": "061fb342701723f2e0cfa49e6a8384db9b74759d",
+  "version": "0.1.79",
+  "url": "0.1.79/stats-display-0.1.79.zip",
+  "sha256": "f3cf9415c1e38ad87e8990c33d5f39822c2c596e4c0a41d8fd1e88b4c38cad4f",
+  "size": 4246346,
+  "exe_sha256": "bad863244fe1b9718a4806599caeb650bd8c36f2db213ff10b89dac08390f219",
+  "published": "2026-11-08T21:46:28Z",
+  "commit": "0b8cbd4895f11d10eeea5d26a39c1c89c7add5d3",
   "changes": [
+    {
+      "version": "0.1.79",
+      "text": "Kubernetes: resource commands — scale, restart, rollback, pause, run now, suspend, rerun, delete; events tab"
+    },
+    {
+      "version": "0.1.77",
+      "text": "Kubernetes: YAML highlighting, copy button icon, short context name"
+    },
+    {
+      "version": "0.1.76",
+      "text": "Kubernetes: notify when a pod in a watched namespace starts failing"
+    },
+    {
+      "version": "0.1.75",
+      "text": "Kubernetes: edit and save a resource's YAML when allowed in the settings"
+    },
+    {
+      "version": "0.1.74",
+      "text": "Kubernetes: switch the context in the main window, namespace per context"
+    },
+    {
+      "version": "0.1.73",
+      "text": "Kubernetes: download a pod log to a file, line timestamps"
+    },
+    {
+      "version": "0.1.70",
+      "text": "Kubernetes module: namespaces, resources, card with YAML and logs, read only"
+    },
+    {
+      "version": "0.1.69",
+      "text": "Modules: enable and order the main window sections"
+    },
     {
       "version": "0.1.66",
       "text": "Manifest lists the changes of the last 10 versions, the full list is in changes.json"
@@ -14,38 +46,6 @@
     {
       "version": "0.1.64",
       "text": "Done tasks show when they were done, not how overdue they are"
-    },
-    {
-      "version": "0.1.63",
-      "text": "Settings: Updates before App, App last"
-    },
-    {
-      "version": "0.1.62",
-      "text": "Update manifest from a GitHub Pages copy, zips only from the release directory"
-    },
-    {
-      "version": "0.1.61",
-      "text": "Notice log: notices of the last 24 hours, open again or show again"
-    },
-    {
-      "version": "0.1.60",
-      "text": "Update notices list the changes since the installed version"
-    },
-    {
-      "version": "0.1.59",
-      "text": "Settings: updates in their own section"
-    },
-    {
-      "version": "0.1.57",
-      "text": "Create Exchange tasks from the \"+\" menu of the main window"
-    },
-    {
-      "version": "0.1.56",
-      "text": "Events list: past part covers 7 days and shows done Exchange tasks"
-    },
-    {
-      "version": "0.1.55",
-      "text": "Exchange tasks and flagged mail: list, done, reschedule, reminders, calendar"
     }
   ],
   "changes_url": "changes.json"
