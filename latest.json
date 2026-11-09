@@ -1,12 +1,20 @@
 {
-  "version": "0.1.81",
-  "url": "0.1.81/stats-display-0.1.81.zip",
-  "sha256": "82b39509c38e7dd62dcf3f0513cbd3b075e8e8c9c70ae32a9eb845839c42dd12",
-  "size": 4256604,
-  "exe_sha256": "e23714ba433364fb9b166545c151b2f477467c3d63a7543863d0c1107aa23776",
-  "published": "2026-11-09T19:47:38Z",
-  "commit": "be94b0da7e4c72900b4a6ea3c7ba2e1af2834654",
+  "version": "0.1.83",
+  "url": "0.1.83/stats-display-0.1.83.zip",
+  "sha256": "5fdc9b8b6ee2af2c70269ad854b6b9382ee4ef70f0e5f7ad1fcd1020d4a701c9",
+  "size": 4262264,
+  "exe_sha256": "0b2be85fb3d32fa226ab636e8f868a369ecd6dad94707be570dd4bd2174a6eb4",
+  "published": "2026-11-09T19:55:06Z",
+  "commit": "8faf6e2bc73a2df64eda0e5cb2494ff024dc925c",
   "changes": [
+    {
+      "version": "0.1.83",
+      "text": "Main window: events, local events, tasks and flagged mail in one time-ordered list"
+    },
+    {
+      "version": "0.1.82",
+      "text": "Main window: day dividers between past days, today and the next day"
+    },
     {
       "version": "0.1.81",
       "text": "Exchange: show tasks due on the dimmed next day"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.73",
       "text": "Kubernetes: download a pod log to a file, line timestamps"
-    },
-    {
-      "version": "0.1.70",
-      "text": "Kubernetes module: namespaces, resources, card with YAML and logs, read only"
-    },
-    {
-      "version": "0.1.69",
-      "text": "Modules: enable and order the main window sections"
     }
   ],
   "changes_url": "changes.json"
