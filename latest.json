@@ -1,12 +1,16 @@
 {
-  "version": "0.1.79",
-  "url": "0.1.79/stats-display-0.1.79.zip",
-  "sha256": "f3cf9415c1e38ad87e8990c33d5f39822c2c596e4c0a41d8fd1e88b4c38cad4f",
-  "size": 4246346,
-  "exe_sha256": "bad863244fe1b9718a4806599caeb650bd8c36f2db213ff10b89dac08390f219",
-  "published": "2026-11-08T21:46:28Z",
-  "commit": "0b8cbd4895f11d10eeea5d26a39c1c89c7add5d3",
+  "version": "0.1.80",
+  "url": "0.1.80/stats-display-0.1.80.zip",
+  "sha256": "85d3c932861b468ba9cd920400740386103e94b2ad7e8aacd633e58485a301c5",
+  "size": 4255668,
+  "exe_sha256": "1034d9508b2de31a4d7420f46423591411d62e887f905a727fd39f8e229b482b",
+  "published": "2026-11-09T10:28:12Z",
+  "commit": "cbf6b070b941bc51239f3fb3850cfaa42d18ff2e",
   "changes": [
+    {
+      "version": "0.1.80",
+      "text": "Exchange: open meetings, tasks and flagged mail in the desktop Outlook when installed, left click opens a meeting"
+    },
     {
       "version": "0.1.79",
       "text": "Kubernetes: resource commands — scale, restart, rollback, pause, run now, suspend, rerun, delete; events tab"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.66",
       "text": "Manifest lists the changes of the last 10 versions, the full list is in changes.json"
-    },
-    {
-      "version": "0.1.64",
-      "text": "Done tasks show when they were done, not how overdue they are"
     }
   ],
   "changes_url": "changes.json"
