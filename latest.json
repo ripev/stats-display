@@ -1,12 +1,16 @@
 {
-  "version": "0.1.80",
-  "url": "0.1.80/stats-display-0.1.80.zip",
-  "sha256": "85d3c932861b468ba9cd920400740386103e94b2ad7e8aacd633e58485a301c5",
-  "size": 4255668,
-  "exe_sha256": "1034d9508b2de31a4d7420f46423591411d62e887f905a727fd39f8e229b482b",
-  "published": "2026-11-09T10:28:12Z",
-  "commit": "cbf6b070b941bc51239f3fb3850cfaa42d18ff2e",
+  "version": "0.1.81",
+  "url": "0.1.81/stats-display-0.1.81.zip",
+  "sha256": "82b39509c38e7dd62dcf3f0513cbd3b075e8e8c9c70ae32a9eb845839c42dd12",
+  "size": 4256604,
+  "exe_sha256": "e23714ba433364fb9b166545c151b2f477467c3d63a7543863d0c1107aa23776",
+  "published": "2026-11-09T19:47:38Z",
+  "commit": "be94b0da7e4c72900b4a6ea3c7ba2e1af2834654",
   "changes": [
+    {
+      "version": "0.1.81",
+      "text": "Exchange: show tasks due on the dimmed next day"
+    },
     {
       "version": "0.1.80",
       "text": "Exchange: open meetings, tasks and flagged mail in the desktop Outlook when installed, left click opens a meeting"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.69",
       "text": "Modules: enable and order the main window sections"
-    },
-    {
-      "version": "0.1.66",
-      "text": "Manifest lists the changes of the last 10 versions, the full list is in changes.json"
     }
   ],
   "changes_url": "changes.json"
