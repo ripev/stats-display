@@ -1,12 +1,16 @@
 {
-  "version": "0.1.94",
-  "url": "0.1.94/stats-display-0.1.94.zip",
-  "sha256": "1bf7ffc6c1813326c13703ba48f6e435c1fb4647bd040a2d10afa947646dbb75",
-  "size": 4401997,
-  "exe_sha256": "965fc16d6e2c7792076614a4cf61ab41f2991bbdba0c2f2282d6dce949c91320",
-  "published": "2026-11-10T20:37:14Z",
-  "commit": "c852880a9443bc9fe3087697ece92127bb4ab483",
+  "version": "0.1.95",
+  "url": "0.1.95/stats-display-0.1.95.zip",
+  "sha256": "6a68265467b47fa3af9f841c2ff64f5d6745745b2a7895996387547edc5b0885",
+  "size": 4402507,
+  "exe_sha256": "60e0dca318157dd5c0c78beaab289699e5995ca793462e99687afb965376f5bf",
+  "published": "2026-11-10T20:48:36Z",
+  "commit": "7b1d60fd507a0478eb93f0befc595e6d81fc7679",
   "changes": [
+    {
+      "version": "0.1.95",
+      "text": "Main window: Exchange meetings get a kind icon before the title, like tasks and flagged mail"
+    },
     {
       "version": "0.1.94",
       "text": "Local events: logging time in Tempo from an event marks the occurrence done; the \"logged\" mark on cards of the main list, as on the day scale"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.86",
       "text": "Jira: Tempo module — today's worklogs, log time from the tab, the tray or a meeting, favorite and recent issues"
-    },
-    {
-      "version": "0.1.85",
-      "text": "Settings: working day start and end, the default start of new time entries"
     }
   ],
   "changes_url": "changes.json"
