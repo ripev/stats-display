@@ -1,12 +1,16 @@
 {
-  "version": "0.1.92",
-  "url": "0.1.92/stats-display-0.1.92.zip",
-  "sha256": "84c52a38c5e2d5f2983eb3c26cd9a00a284cf37da5ecf5e7e22f5c209b5b1ce5",
-  "size": 4394266,
-  "exe_sha256": "c6b4be5a87f2795840b446f34a7c03c52315081c10b8f2f329712fc36903ccbf",
-  "published": "2026-11-10T11:58:55Z",
-  "commit": "edf227ac4af2805a34618f2b0c701dbe177f559e",
+  "version": "0.1.93",
+  "url": "0.1.93/stats-display-0.1.93.zip",
+  "sha256": "77a8c09192554b1b048641d45ed358a8450b14712c3a3b8fd2d490c1ab4141ed",
+  "size": 4400383,
+  "exe_sha256": "7790cf93eb4263879021e7fb7a68f41321f941fd4af6aae1a000d6796e852b1b",
+  "published": "2026-11-10T12:34:08Z",
+  "commit": "c2558d53e885b174bbf155856e9fac31d434cfb8",
   "changes": [
+    {
+      "version": "0.1.93",
+      "text": "Exchange: answer status of others' meetings — mark and label everywhere, lighter color until answered; Accept / Tentative / Decline from the meeting menu"
+    },
     {
       "version": "0.1.92",
       "text": "Day scale: Exchange tasks — strips at today's reminder (drag moves it), chips above the scale dropped onto it set a reminder"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.84",
       "text": "Settings: one domain account shared by Exchange and Jira"
-    },
-    {
-      "version": "0.1.83",
-      "text": "Main window: events, local events, tasks and flagged mail in one time-ordered list"
     }
   ],
   "changes_url": "changes.json"
