@@ -1,12 +1,20 @@
 {
-  "version": "0.1.84",
-  "url": "0.1.84/stats-display-0.1.84.zip",
-  "sha256": "1db74df31d95ece093f06b86093cea4266d1475f3d076fc920bd3e61c63332c2",
-  "size": 4270546,
-  "exe_sha256": "d6cd89752673c9c54282d5e2df85e90793d342917f0f3f508faee7c4f42f4b07",
-  "published": "2026-11-10T08:06:25Z",
-  "commit": "0ce6710daf8e9315c8b5d37afe274433bb4770ad",
+  "version": "0.1.86",
+  "url": "0.1.86/stats-display-0.1.86.zip",
+  "sha256": "a44858059cf69634647a82ea9e98657e2d7866ab1e569288d6dd7bbf0d850f7e",
+  "size": 4350928,
+  "exe_sha256": "1469655a722d747726637052923c5558c7ac2835c9541031a497e94128718f0e",
+  "published": "2026-11-10T08:52:35Z",
+  "commit": "4b696308a11acd5fc460a1a282fa8c5057c0665e",
   "changes": [
+    {
+      "version": "0.1.86",
+      "text": "Jira: Tempo module — today's worklogs, log time from the tab, the tray or a meeting, favorite and recent issues"
+    },
+    {
+      "version": "0.1.85",
+      "text": "Settings: working day start and end, the default start of new time entries"
+    },
     {
       "version": "0.1.84",
       "text": "Settings: one domain account shared by Exchange and Jira"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.76",
       "text": "Kubernetes: notify when a pod in a watched namespace starts failing"
-    },
-    {
-      "version": "0.1.75",
-      "text": "Kubernetes: edit and save a resource's YAML when allowed in the settings"
-    },
-    {
-      "version": "0.1.74",
-      "text": "Kubernetes: switch the context in the main window, namespace per context"
     }
   ],
   "changes_url": "changes.json"
