@@ -1,12 +1,16 @@
 {
-  "version": "0.1.90",
-  "url": "0.1.90/stats-display-0.1.90.zip",
-  "sha256": "274be82fc56b3be9ee1e1a34c443e094e4667c659ab5c875b1d6a23cfa75bebd",
-  "size": 4382547,
-  "exe_sha256": "d49d4eb9dbac35a23c196466d5a673c20eabd6fe8ebca449486916fec64062ad",
-  "published": "2026-11-10T10:16:26Z",
-  "commit": "0a5d9e357cb470a5620073cdd5fb01ff05943ddf",
+  "version": "0.1.91",
+  "url": "0.1.91/stats-display-0.1.91.zip",
+  "sha256": "10178601657f665c257ef888c895630310a501a878ffe6b1151e11cf700002f0",
+  "size": 4385338,
+  "exe_sha256": "23584ac7e2f1df2ba4acc78562d9203da3fc99778f613b64afe208307378bc75",
+  "published": "2026-11-10T10:41:24Z",
+  "commit": "c55ce3590c3ccf6f817cfde211ade8604fca000f",
   "changes": [
+    {
+      "version": "0.1.91",
+      "text": "Main window: shortcuts — Alt+1…4 modules, Ctrl+T day scale, Ctrl+. settings, Ctrl+R refresh, Ctrl+U check for updates"
+    },
     {
       "version": "0.1.90",
       "text": "Exchange: a new task with a due date gets the same start date"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.82",
       "text": "Main window: day dividers between past days, today and the next day"
-    },
-    {
-      "version": "0.1.81",
-      "text": "Exchange: show tasks due on the dimmed next day"
     }
   ],
   "changes_url": "changes.json"
