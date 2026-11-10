@@ -1,12 +1,20 @@
 {
-  "version": "0.1.88",
-  "url": "0.1.88/stats-display-0.1.88.zip",
-  "sha256": "cb78b35c36e57dbf8dc4a1b4a1a33708400cccbcab1a14f800452cbf30893e9a",
-  "size": 4368738,
-  "exe_sha256": "b15da4372a68d570f8acce948c4ce3c1a950086783a5b568b1567fafd21894b0",
-  "published": "2026-11-10T10:07:19Z",
-  "commit": "6372b770419df14d5f5cbbe9f14041ce4b678430",
+  "version": "0.1.90",
+  "url": "0.1.90/stats-display-0.1.90.zip",
+  "sha256": "274be82fc56b3be9ee1e1a34c443e094e4667c659ab5c875b1d6a23cfa75bebd",
+  "size": 4382547,
+  "exe_sha256": "d49d4eb9dbac35a23c196466d5a673c20eabd6fe8ebca449486916fec64062ad",
+  "published": "2026-11-10T10:16:26Z",
+  "commit": "0a5d9e357cb470a5620073cdd5fb01ff05943ddf",
   "changes": [
+    {
+      "version": "0.1.90",
+      "text": "Exchange: a new task with a due date gets the same start date"
+    },
+    {
+      "version": "0.1.89",
+      "text": "Tempo: timer — start on an issue, stop to log it, tray line and dot, reminders when long or a meeting begins"
+    },
     {
       "version": "0.1.88",
       "text": "Day scale: drag to move, drag an edge to resize own events, Tempo worklogs and organized meetings"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.81",
       "text": "Exchange: show tasks due on the dimmed next day"
-    },
-    {
-      "version": "0.1.80",
-      "text": "Exchange: open meetings, tasks and flagged mail in the desktop Outlook when installed, left click opens a meeting"
-    },
-    {
-      "version": "0.1.79",
-      "text": "Kubernetes: resource commands — scale, restart, rollback, pause, run now, suspend, rerun, delete; events tab"
     }
   ],
   "changes_url": "changes.json"
