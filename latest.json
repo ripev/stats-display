@@ -1,12 +1,16 @@
 {
-  "version": "0.1.86",
-  "url": "0.1.86/stats-display-0.1.86.zip",
-  "sha256": "a44858059cf69634647a82ea9e98657e2d7866ab1e569288d6dd7bbf0d850f7e",
-  "size": 4350928,
-  "exe_sha256": "1469655a722d747726637052923c5558c7ac2835c9541031a497e94128718f0e",
-  "published": "2026-11-10T08:52:35Z",
-  "commit": "4b696308a11acd5fc460a1a282fa8c5057c0665e",
+  "version": "0.1.87",
+  "url": "0.1.87/stats-display-0.1.87.zip",
+  "sha256": "38b40f0f4686e8bd6572bc7060fe2fe6533b3ba60c299675d30bdf9d24fa4f20",
+  "size": 4356732,
+  "exe_sha256": "03d733505443bc0c1b0d69545540d0f9e5a82e3e549cc41a4ebb4792652f3991",
+  "published": "2026-11-10T09:20:41Z",
+  "commit": "4cc60fc7ce1296806935efa51a01083ab5e6fcff",
   "changes": [
+    {
+      "version": "0.1.87",
+      "text": "Tempo: worklogs on the day scale and in the calendar window, meetings marked as logged"
+    },
     {
       "version": "0.1.86",
       "text": "Jira: Tempo module — today's worklogs, log time from the tab, the tray or a meeting, favorite and recent issues"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.77",
       "text": "Kubernetes: YAML highlighting, copy button icon, short context name"
-    },
-    {
-      "version": "0.1.76",
-      "text": "Kubernetes: notify when a pod in a watched namespace starts failing"
     }
   ],
   "changes_url": "changes.json"
