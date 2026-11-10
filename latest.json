@@ -1,12 +1,16 @@
 {
-  "version": "0.1.83",
-  "url": "0.1.83/stats-display-0.1.83.zip",
-  "sha256": "5fdc9b8b6ee2af2c70269ad854b6b9382ee4ef70f0e5f7ad1fcd1020d4a701c9",
-  "size": 4262264,
-  "exe_sha256": "0b2be85fb3d32fa226ab636e8f868a369ecd6dad94707be570dd4bd2174a6eb4",
-  "published": "2026-11-09T19:55:06Z",
-  "commit": "8faf6e2bc73a2df64eda0e5cb2494ff024dc925c",
+  "version": "0.1.84",
+  "url": "0.1.84/stats-display-0.1.84.zip",
+  "sha256": "1db74df31d95ece093f06b86093cea4266d1475f3d076fc920bd3e61c63332c2",
+  "size": 4270546,
+  "exe_sha256": "d6cd89752673c9c54282d5e2df85e90793d342917f0f3f508faee7c4f42f4b07",
+  "published": "2026-11-10T08:06:25Z",
+  "commit": "0ce6710daf8e9315c8b5d37afe274433bb4770ad",
   "changes": [
+    {
+      "version": "0.1.84",
+      "text": "Settings: one domain account shared by Exchange and Jira"
+    },
     {
       "version": "0.1.83",
       "text": "Main window: events, local events, tasks and flagged mail in one time-ordered list"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.74",
       "text": "Kubernetes: switch the context in the main window, namespace per context"
-    },
-    {
-      "version": "0.1.73",
-      "text": "Kubernetes: download a pod log to a file, line timestamps"
     }
   ],
   "changes_url": "changes.json"
