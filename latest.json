@@ -1,12 +1,16 @@
 {
-  "version": "0.1.91",
-  "url": "0.1.91/stats-display-0.1.91.zip",
-  "sha256": "10178601657f665c257ef888c895630310a501a878ffe6b1151e11cf700002f0",
-  "size": 4385338,
-  "exe_sha256": "23584ac7e2f1df2ba4acc78562d9203da3fc99778f613b64afe208307378bc75",
-  "published": "2026-11-10T10:41:24Z",
-  "commit": "c55ce3590c3ccf6f817cfde211ade8604fca000f",
+  "version": "0.1.92",
+  "url": "0.1.92/stats-display-0.1.92.zip",
+  "sha256": "84c52a38c5e2d5f2983eb3c26cd9a00a284cf37da5ecf5e7e22f5c209b5b1ce5",
+  "size": 4394266,
+  "exe_sha256": "c6b4be5a87f2795840b446f34a7c03c52315081c10b8f2f329712fc36903ccbf",
+  "published": "2026-11-10T11:58:55Z",
+  "commit": "edf227ac4af2805a34618f2b0c701dbe177f559e",
   "changes": [
+    {
+      "version": "0.1.92",
+      "text": "Day scale: Exchange tasks — strips at today's reminder (drag moves it), chips above the scale dropped onto it set a reminder"
+    },
     {
       "version": "0.1.91",
       "text": "Main window: shortcuts — Alt+1…4 modules, Ctrl+T day scale, Ctrl+. settings, Ctrl+R refresh, Ctrl+U check for updates"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.83",
       "text": "Main window: events, local events, tasks and flagged mail in one time-ordered list"
-    },
-    {
-      "version": "0.1.82",
-      "text": "Main window: day dividers between past days, today and the next day"
     }
   ],
   "changes_url": "changes.json"
