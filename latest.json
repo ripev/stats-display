@@ -1,12 +1,16 @@
 {
-  "version": "0.1.87",
-  "url": "0.1.87/stats-display-0.1.87.zip",
-  "sha256": "38b40f0f4686e8bd6572bc7060fe2fe6533b3ba60c299675d30bdf9d24fa4f20",
-  "size": 4356732,
-  "exe_sha256": "03d733505443bc0c1b0d69545540d0f9e5a82e3e549cc41a4ebb4792652f3991",
-  "published": "2026-11-10T09:20:41Z",
-  "commit": "4cc60fc7ce1296806935efa51a01083ab5e6fcff",
+  "version": "0.1.88",
+  "url": "0.1.88/stats-display-0.1.88.zip",
+  "sha256": "cb78b35c36e57dbf8dc4a1b4a1a33708400cccbcab1a14f800452cbf30893e9a",
+  "size": 4368738,
+  "exe_sha256": "b15da4372a68d570f8acce948c4ce3c1a950086783a5b568b1567fafd21894b0",
+  "published": "2026-11-10T10:07:19Z",
+  "commit": "6372b770419df14d5f5cbbe9f14041ce4b678430",
   "changes": [
+    {
+      "version": "0.1.88",
+      "text": "Day scale: drag to move, drag an edge to resize own events, Tempo worklogs and organized meetings"
+    },
     {
       "version": "0.1.87",
       "text": "Tempo: worklogs on the day scale and in the calendar window, meetings marked as logged"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.79",
       "text": "Kubernetes: resource commands — scale, restart, rollback, pause, run now, suspend, rerun, delete; events tab"
-    },
-    {
-      "version": "0.1.77",
-      "text": "Kubernetes: YAML highlighting, copy button icon, short context name"
     }
   ],
   "changes_url": "changes.json"
