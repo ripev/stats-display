@@ -1,12 +1,16 @@
 {
-  "version": "0.1.93",
-  "url": "0.1.93/stats-display-0.1.93.zip",
-  "sha256": "77a8c09192554b1b048641d45ed358a8450b14712c3a3b8fd2d490c1ab4141ed",
-  "size": 4400383,
-  "exe_sha256": "7790cf93eb4263879021e7fb7a68f41321f941fd4af6aae1a000d6796e852b1b",
-  "published": "2026-11-10T12:34:08Z",
-  "commit": "c2558d53e885b174bbf155856e9fac31d434cfb8",
+  "version": "0.1.94",
+  "url": "0.1.94/stats-display-0.1.94.zip",
+  "sha256": "1bf7ffc6c1813326c13703ba48f6e435c1fb4647bd040a2d10afa947646dbb75",
+  "size": 4401997,
+  "exe_sha256": "965fc16d6e2c7792076614a4cf61ab41f2991bbdba0c2f2282d6dce949c91320",
+  "published": "2026-11-10T20:37:14Z",
+  "commit": "c852880a9443bc9fe3087697ece92127bb4ab483",
   "changes": [
+    {
+      "version": "0.1.94",
+      "text": "Local events: logging time in Tempo from an event marks the occurrence done; the \"logged\" mark on cards of the main list, as on the day scale"
+    },
     {
       "version": "0.1.93",
       "text": "Exchange: answer status of others' meetings — mark and label everywhere, lighter color until answered; Accept / Tentative / Decline from the meeting menu"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.85",
       "text": "Settings: working day start and end, the default start of new time entries"
-    },
-    {
-      "version": "0.1.84",
-      "text": "Settings: one domain account shared by Exchange and Jira"
     }
   ],
   "changes_url": "changes.json"
