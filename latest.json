@@ -1,12 +1,16 @@
 {
-  "version": "0.1.101",
-  "url": "0.1.101/stats-display-0.1.101.zip",
-  "sha256": "d74075c369fbfd4fd95517177905bccd18ebe2d01189fe7d929050dc53ee9196",
-  "size": 4415994,
-  "exe_sha256": "998f74bff91eba6bf877b836e75478d04bbb48add54c4f01e365cd5c5a394a08",
-  "published": "2026-11-12T07:14:22Z",
-  "commit": "3591a7a202ccccdffc38ee94ee55d4502b1862f3",
+  "version": "0.1.102",
+  "url": "0.1.102/stats-display-0.1.102.zip",
+  "sha256": "6f0b3d5565f589f934ff29065b8c610cb194a1d3f41365ab37d04c6aefc13fff",
+  "size": 4415765,
+  "exe_sha256": "add2a71c8783f823edd8ec0bb39d29ee84d7d12fa1e376ff6418b1d329eb2eab",
+  "published": "2026-11-12T09:45:08Z",
+  "commit": "b7b977bae3cef1e3511ed2e330b6aa2e5015c527",
   "changes": [
+    {
+      "version": "0.1.102",
+      "text": "Events list: past own events show only when scrolling up, the scroll position is kept relative to \"now\""
+    },
     {
       "version": "0.1.101",
       "text": "Day scale: drag on an empty place to select an interval for a new own event"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.93",
       "text": "Exchange: answer status of others' meetings — mark and label everywhere, lighter color until answered; Accept / Tentative / Decline from the meeting menu"
-    },
-    {
-      "version": "0.1.92",
-      "text": "Day scale: Exchange tasks — strips at today's reminder (drag moves it), chips above the scale dropped onto it set a reminder"
     }
   ],
   "changes_url": "changes.json"
