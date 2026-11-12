@@ -1,12 +1,36 @@
 {
-  "version": "0.1.95",
-  "url": "0.1.95/stats-display-0.1.95.zip",
-  "sha256": "6a68265467b47fa3af9f841c2ff64f5d6745745b2a7895996387547edc5b0885",
-  "size": 4402507,
-  "exe_sha256": "60e0dca318157dd5c0c78beaab289699e5995ca793462e99687afb965376f5bf",
-  "published": "2026-11-10T20:48:36Z",
-  "commit": "7b1d60fd507a0478eb93f0befc595e6d81fc7679",
+  "version": "0.1.101",
+  "url": "0.1.101/stats-display-0.1.101.zip",
+  "sha256": "d74075c369fbfd4fd95517177905bccd18ebe2d01189fe7d929050dc53ee9196",
+  "size": 4415994,
+  "exe_sha256": "998f74bff91eba6bf877b836e75478d04bbb48add54c4f01e365cd5c5a394a08",
+  "published": "2026-11-12T07:14:22Z",
+  "commit": "3591a7a202ccccdffc38ee94ee55d4502b1862f3",
   "changes": [
+    {
+      "version": "0.1.101",
+      "text": "Day scale: drag on an empty place to select an interval for a new own event"
+    },
+    {
+      "version": "0.1.100",
+      "text": "Day scale: grid step from the right-click menu on an empty place, the step sets the scale; zooming in keeps the view in place"
+    },
+    {
+      "version": "0.1.99",
+      "text": "Storage: daily cleanup of the local database — marks of deleted events, done marks older than a year, seen marks of gone Jenkins jobs; optimize, WAL truncate, VACUUM"
+    },
+    {
+      "version": "0.1.98",
+      "text": "Exchange: a task change with a stale change key is retried with the current key"
+    },
+    {
+      "version": "0.1.97",
+      "text": "Exchange: a flagged task found in both the Tasks and To-Do folders is listed once"
+    },
+    {
+      "version": "0.1.96",
+      "text": "Exchange: symbols like ⚠ in subjects are shown — Segoe UI Symbol as a fallback font, emoji variation selectors dropped"
+    },
     {
       "version": "0.1.95",
       "text": "Main window: Exchange meetings get a kind icon before the title, like tasks and flagged mail"
@@ -22,30 +46,6 @@
     {
       "version": "0.1.92",
       "text": "Day scale: Exchange tasks — strips at today's reminder (drag moves it), chips above the scale dropped onto it set a reminder"
-    },
-    {
-      "version": "0.1.91",
-      "text": "Main window: shortcuts — Alt+1…4 modules, Ctrl+T day scale, Ctrl+. settings, Ctrl+R refresh, Ctrl+U check for updates"
-    },
-    {
-      "version": "0.1.90",
-      "text": "Exchange: a new task with a due date gets the same start date"
-    },
-    {
-      "version": "0.1.89",
-      "text": "Tempo: timer — start on an issue, stop to log it, tray line and dot, reminders when long or a meeting begins"
-    },
-    {
-      "version": "0.1.88",
-      "text": "Day scale: drag to move, drag an edge to resize own events, Tempo worklogs and organized meetings"
-    },
-    {
-      "version": "0.1.87",
-      "text": "Tempo: worklogs on the day scale and in the calendar window, meetings marked as logged"
-    },
-    {
-      "version": "0.1.86",
-      "text": "Jira: Tempo module — today's worklogs, log time from the tab, the tray or a meeting, favorite and recent issues"
     }
   ],
   "changes_url": "changes.json"
