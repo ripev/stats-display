@@ -1,12 +1,24 @@
 {
-  "version": "0.1.102",
-  "url": "0.1.102/stats-display-0.1.102.zip",
-  "sha256": "6f0b3d5565f589f934ff29065b8c610cb194a1d3f41365ab37d04c6aefc13fff",
-  "size": 4415765,
-  "exe_sha256": "add2a71c8783f823edd8ec0bb39d29ee84d7d12fa1e376ff6418b1d329eb2eab",
-  "published": "2026-11-12T09:45:08Z",
-  "commit": "b7b977bae3cef1e3511ed2e330b6aa2e5015c527",
+  "version": "0.1.105",
+  "url": "0.1.105/stats-display-0.1.105.zip",
+  "sha256": "f5df295135ccc0e937a7a7a8d5238d1c5902f8d96e5f6f5709b7585638b28693",
+  "size": 4416060,
+  "exe_sha256": "171505f90b84c2dc2d5fbe8a2b98e1eade5c7dbf39adcee9a65d3afcaf8076cc",
+  "published": "2026-11-12T09:59:47Z",
+  "commit": "ae67469976c1986c201c3f4d44a19927b3d6863b",
   "changes": [
+    {
+      "version": "0.1.105",
+      "text": "UI: a plain hyphen instead of the em dash in tooltips, labels, window titles, messages and settings texts"
+    },
+    {
+      "version": "0.1.104",
+      "text": "Tempo: the worklog form opened from the shown window (day scale, an event's menu) keeps the view and returns to it"
+    },
+    {
+      "version": "0.1.103",
+      "text": "My events: finished events go above the rest and show only when scrolling up, the screen opens on the first not finished one"
+    },
     {
       "version": "0.1.102",
       "text": "Events list: past own events show only when scrolling up, the scroll position is kept relative to \"now\""
@@ -34,18 +46,6 @@
     {
       "version": "0.1.96",
       "text": "Exchange: symbols like ⚠ in subjects are shown — Segoe UI Symbol as a fallback font, emoji variation selectors dropped"
-    },
-    {
-      "version": "0.1.95",
-      "text": "Main window: Exchange meetings get a kind icon before the title, like tasks and flagged mail"
-    },
-    {
-      "version": "0.1.94",
-      "text": "Local events: logging time in Tempo from an event marks the occurrence done; the \"logged\" mark on cards of the main list, as on the day scale"
-    },
-    {
-      "version": "0.1.93",
-      "text": "Exchange: answer status of others' meetings — mark and label everywhere, lighter color until answered; Accept / Tentative / Decline from the meeting menu"
     }
   ],
   "changes_url": "changes.json"
