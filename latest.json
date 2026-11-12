@@ -1,12 +1,16 @@
 {
-  "version": "0.1.105",
-  "url": "0.1.105/stats-display-0.1.105.zip",
-  "sha256": "f5df295135ccc0e937a7a7a8d5238d1c5902f8d96e5f6f5709b7585638b28693",
-  "size": 4416060,
-  "exe_sha256": "171505f90b84c2dc2d5fbe8a2b98e1eade5c7dbf39adcee9a65d3afcaf8076cc",
-  "published": "2026-11-12T09:59:47Z",
-  "commit": "ae67469976c1986c201c3f4d44a19927b3d6863b",
+  "version": "0.1.106",
+  "url": "0.1.106/stats-display-0.1.106.zip",
+  "sha256": "24259ba39b150685cb0823f8d7afa8676b33b28a8354e9e67665e886f871af27",
+  "size": 4416622,
+  "exe_sha256": "9116c5cee61f4dc48dbaa891a571b73edc99fed15cabeff710c2b966dc6591c1",
+  "published": "2026-11-12T11:50:25Z",
+  "commit": "6b7da076dc5ba8f09b87ab47826459ae345b3446",
   "changes": [
+    {
+      "version": "0.1.106",
+      "text": "Tempo: logging time from an own event deletes it (a one-off event, or just this occurrence of a series) instead of marking it done"
+    },
     {
       "version": "0.1.105",
       "text": "UI: a plain hyphen instead of the em dash in tooltips, labels, window titles, messages and settings texts"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.97",
       "text": "Exchange: a flagged task found in both the Tasks and To-Do folders is listed once"
-    },
-    {
-      "version": "0.1.96",
-      "text": "Exchange: symbols like ⚠ in subjects are shown — Segoe UI Symbol as a fallback font, emoji variation selectors dropped"
     }
   ],
   "changes_url": "changes.json"
