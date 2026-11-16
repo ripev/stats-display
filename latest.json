@@ -1,12 +1,16 @@
 {
-  "version": "0.1.107",
-  "url": "0.1.107/stats-display-0.1.107.zip",
-  "sha256": "7fffda56496198e53fb800b5616065e31ef9f0443050db3f8e9dcacac84736b9",
-  "size": 4416246,
-  "exe_sha256": "7731ae2fca2493425218dbed79362f0687b7614e0b8e0e74e429920a6f82c30a",
-  "published": "2026-11-16T07:51:27Z",
-  "commit": "ebf9a81bab8585b581905a5ca62028120abf0462",
+  "version": "0.1.108",
+  "url": "0.1.108/stats-display-0.1.108.zip",
+  "sha256": "6b6937c33b74dd3a91fc00252bb96fcd43090168d8183cf514c959137eb2bde1",
+  "size": 4443675,
+  "exe_sha256": "b0ce4ff872380fbbb25d8d880460881daeeb649e90f1388f91890ba32f3df308",
+  "published": "2026-11-16T09:38:30Z",
+  "commit": "44d4d8208520a81675a818afbb56ef2b6e503ec2",
   "changes": [
+    {
+      "version": "0.1.108",
+      "text": "My events: a \"Сверка\" button checks own events against the scheduled Jira issues"
+    },
     {
       "version": "0.1.107",
       "text": "Day scale: dragging an own event's edge inwards shortens it instead of moving the block"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.99",
       "text": "Storage: daily cleanup of the local database — marks of deleted events, done marks older than a year, seen marks of gone Jenkins jobs; optimize, WAL truncate, VACUUM"
-    },
-    {
-      "version": "0.1.98",
-      "text": "Exchange: a task change with a stale change key is retried with the current key"
     }
   ],
   "changes_url": "changes.json"
