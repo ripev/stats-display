@@ -1,12 +1,20 @@
 {
-  "version": "0.1.109",
-  "url": "0.1.109/stats-display-0.1.109.zip",
-  "sha256": "3271aeaeab90116e0894865f6e6197689f319c6367e6cfcd7901e74c38c9b6dd",
-  "size": 4450966,
-  "exe_sha256": "57f7583aa328cced88e08e313daea59f1c483e0fb180be2c5c617f271b990957",
-  "published": "2026-11-16T10:05:27Z",
-  "commit": "da921710cbeef9848cb540cb0ded4bbc8c0c0d2a",
+  "version": "0.1.111",
+  "url": "0.1.111/stats-display-0.1.111.zip",
+  "sha256": "253c84a3f28dd066344a7875cbba00c1203720bc9bba6d93a2af66ca49c54911",
+  "size": 4499049,
+  "exe_sha256": "2325cb8eaefacf5966a7ab68c9e4f608fb9c4e3a54eab21e2c7ba147eedd4370",
+  "published": "2026-11-16T16:17:07Z",
+  "commit": "ef9e70762f24c51bf39364696b9ce8a8d3d2a108",
   "changes": [
+    {
+      "version": "0.1.111",
+      "text": "Settings: the list of sections scrolls, so Save and Close are not cut off at the bottom"
+    },
+    {
+      "version": "0.1.110",
+      "text": "Claude: a fifth module shows the subscription limits of /usage, with notices, a tray line and its own proxy"
+    },
     {
       "version": "0.1.109",
       "text": "Сверка: an event is tied to an issue by its title too, and the report shows every pair with a verdict"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.102",
       "text": "Events list: past own events show only when scrolling up, the scroll position is kept relative to \"now\""
-    },
-    {
-      "version": "0.1.101",
-      "text": "Day scale: drag on an empty place to select an interval for a new own event"
-    },
-    {
-      "version": "0.1.100",
-      "text": "Day scale: grid step from the right-click menu on an empty place, the step sets the scale; zooming in keeps the view in place"
     }
   ],
   "changes_url": "changes.json"
