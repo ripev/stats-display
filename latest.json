@@ -1,12 +1,16 @@
 {
-  "version": "0.1.108",
-  "url": "0.1.108/stats-display-0.1.108.zip",
-  "sha256": "6b6937c33b74dd3a91fc00252bb96fcd43090168d8183cf514c959137eb2bde1",
-  "size": 4443675,
-  "exe_sha256": "b0ce4ff872380fbbb25d8d880460881daeeb649e90f1388f91890ba32f3df308",
-  "published": "2026-11-16T09:38:30Z",
-  "commit": "44d4d8208520a81675a818afbb56ef2b6e503ec2",
+  "version": "0.1.109",
+  "url": "0.1.109/stats-display-0.1.109.zip",
+  "sha256": "3271aeaeab90116e0894865f6e6197689f319c6367e6cfcd7901e74c38c9b6dd",
+  "size": 4450966,
+  "exe_sha256": "57f7583aa328cced88e08e313daea59f1c483e0fb180be2c5c617f271b990957",
+  "published": "2026-11-16T10:05:27Z",
+  "commit": "da921710cbeef9848cb540cb0ded4bbc8c0c0d2a",
   "changes": [
+    {
+      "version": "0.1.109",
+      "text": "Сверка: an event is tied to an issue by its title too, and the report shows every pair with a verdict"
+    },
     {
       "version": "0.1.108",
       "text": "My events: a \"Сверка\" button checks own events against the scheduled Jira issues"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.100",
       "text": "Day scale: grid step from the right-click menu on an empty place, the step sets the scale; zooming in keeps the view in place"
-    },
-    {
-      "version": "0.1.99",
-      "text": "Storage: daily cleanup of the local database — marks of deleted events, done marks older than a year, seen marks of gone Jenkins jobs; optimize, WAL truncate, VACUUM"
     }
   ],
   "changes_url": "changes.json"
