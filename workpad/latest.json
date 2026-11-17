@@ -1,12 +1,20 @@
 {
-  "version": "0.1.55",
-  "url": "0.1.55/workpad-0.1.55.zip",
-  "sha256": "4e6373503d9cc48d86b77ebccae6b9f376b172a13c2c0892003c2dfdfca586a9",
-  "size": 6200822,
-  "exe_sha256": "777ccc026f1242f5b59d6ac1275e2bcbe4a36c3694d38c082cba9da88e9274e8",
-  "published": "2026-11-17T12:22:30Z",
-  "commit": "80492a1390aa8c420ba3fedf7b0d084f25ebf172",
+  "version": "0.1.57",
+  "url": "0.1.57/workpad-0.1.57.zip",
+  "sha256": "78dede52e4f97edf23240815dec834909f51ef74c6449fd5a6cd47f4162f28f8",
+  "size": 6223438,
+  "exe_sha256": "5fcd27c5e06ed2368d03ccd70935027a8d2400222db2ddea1476043564d6ca94",
+  "published": "2026-11-17T12:40:16Z",
+  "commit": "61cc711168a63a3dbe63d2564a968defec9361a1",
   "changes": [
+    {
+      "version": "0.1.57",
+      "text": "Editor: Alt+Shift+Down/Up copy the lines of every cursor down or up, as one undo step"
+    },
+    {
+      "version": "0.1.56",
+      "text": "Git: merge conflicts - blocks tinted in the editor with Accept Current / Incoming / Both on the first marker and for all blocks over the text, Compare; Merge Changes section (take a side whole, compare, mark resolved); Continue and Abort for a stopped merge, rebase, cherry-pick or revert"
+    },
     {
       "version": "0.1.55",
       "text": "Git: incoming commits seen before pushing - background fetch every 3 min (git_autofetch, no password or login windows), incoming on top of the history and outgoing marked, Sync Changes (pull --rebase --autostash, then push) and Publish Branch under Commit, a refused push offers to pull and push; a branch without upstream is compared with origin/<branch>"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.48",
       "text": "Title bar: menu names stand apart - 10 pt at the sides, a gap between them, a rounded highlight on hover and while open; backlog: Markdown preview"
-    },
-    {
-      "version": "0.1.47",
-      "text": "Updates: check at start and once a day, Help > Check for Updates, status bar item, download with checks and exe swap, restart now or on next start"
-    },
-    {
-      "version": "0.1.46",
-      "text": "Explorer watcher test: give the watch a moment before changing files (wine sets up subfolder watches late); backlog: menu bar spacing, Help > Check for Updates"
     }
   ],
   "changes_url": "changes.json"
