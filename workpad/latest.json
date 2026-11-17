@@ -1,12 +1,16 @@
 {
-  "version": "0.1.54",
-  "url": "0.1.54/workpad-0.1.54.zip",
-  "sha256": "9b377631a4ac291c0f02bd8fb73954100e662b6afa75cf8c8c881a598d60705f",
-  "size": 6195345,
-  "exe_sha256": "9e92b94d62ebe59db8203860ad641e48ec85a990af8b088cc73e49e19d856a72",
-  "published": "2026-11-17T12:10:45Z",
-  "commit": "d32c7e4bc74b65cee38d390390d53f1b3410c226",
+  "version": "0.1.55",
+  "url": "0.1.55/workpad-0.1.55.zip",
+  "sha256": "4e6373503d9cc48d86b77ebccae6b9f376b172a13c2c0892003c2dfdfca586a9",
+  "size": 6200822,
+  "exe_sha256": "777ccc026f1242f5b59d6ac1275e2bcbe4a36c3694d38c082cba9da88e9274e8",
+  "published": "2026-11-17T12:22:30Z",
+  "commit": "80492a1390aa8c420ba3fedf7b0d084f25ebf172",
   "changes": [
+    {
+      "version": "0.1.55",
+      "text": "Git: incoming commits seen before pushing - background fetch every 3 min (git_autofetch, no password or login windows), incoming on top of the history and outgoing marked, Sync Changes (pull --rebase --autostash, then push) and Publish Branch under Commit, a refused push offers to pull and push; a branch without upstream is compared with origin/<branch>"
+    },
     {
       "version": "0.1.54",
       "text": "New window: Ctrl+Shift+N, File > New Window and the palette start an empty window offset from this one; the terminal leaves the key to the window"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.46",
       "text": "Explorer watcher test: give the watch a moment before changing files (wine sets up subfolder watches late); backlog: menu bar spacing, Help > Check for Updates"
-    },
-    {
-      "version": "0.1.44",
-      "text": "Ctrl+R: keep 100 recent folders, show ten and scroll through the rest with the arrows, PageUp/PageDown, the wheel or by typing"
     }
   ],
   "changes_url": "changes.json"
