@@ -1,12 +1,20 @@
 {
-  "version": "0.1.51",
-  "url": "0.1.51/workpad-0.1.51.zip",
-  "sha256": "8802ee0305fe1d262539e854773d12ed3c24a6522f31ee54b19f568f05949d71",
-  "size": 6192322,
-  "exe_sha256": "ae48178e8292224dc8f76c40896beeced8eaa07ce43b6db8596330f7b5ce1268",
-  "published": "2026-11-17T10:08:23Z",
-  "commit": "27d0cdacf506fefb724f7aeff1965bda97e62449",
+  "version": "0.1.53",
+  "url": "0.1.53/workpad-0.1.53.zip",
+  "sha256": "611dc376af4b10307b5a2fa1e4d6d57e973193a32b52d5e49d6b5e70e41066eb",
+  "size": 6194813,
+  "exe_sha256": "671c0cbdc74bc8093bdb7b19397b18778ebea775f08a262edbd1fee3a7483b4c",
+  "published": "2026-11-17T10:17:56Z",
+  "commit": "93665ad0d6aa67b1f37282142f7dd28da685bdab",
   "changes": [
+    {
+      "version": "0.1.53",
+      "text": "Update notice: \"updated to X\" shows once - the state is saved without it on the first frame, new windows do not show it again"
+    },
+    {
+      "version": "0.1.52",
+      "text": "Terminal: keys go to the terminal (tmux's Ctrl+B, the shell's Ctrl+W) but the window's few, the wheel and clicks to programs that asked for the mouse, arrows in full-screen ones"
+    },
     {
       "version": "0.1.51",
       "text": "Remote: folders on SSH hosts - one ssh.exe channel per host, files, quick open, TODO, search and git on the host, ssh terminal, password window (SSH_ASKPASS), connecting in the background"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.43",
       "text": "Remote: open folders in WSL - files through \\wsl.localhost, git and the terminal inside the distro, polling for changes, remote indicator in the status bar"
-    },
-    {
-      "version": "0.1.42",
-      "text": "Ctrl+H in a terminal below the editor maximizes the panel to the editor's height and back; a chevron in the panel header does the same"
-    },
-    {
-      "version": "0.1.41",
-      "text": "Ctrl+R picks a recent folder by name in the palette, the open one left out; in a terminal Ctrl+R stays the shell's"
     }
   ],
   "changes_url": "changes.json"
