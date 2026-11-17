@@ -1,12 +1,16 @@
 {
-  "version": "0.1.46",
-  "url": "0.1.46/workpad-0.1.46.zip",
-  "sha256": "601a01794aac47c64463173ea3acd19b9fc7417435e4746f2e526816bac7270e",
-  "size": 5237056,
-  "exe_sha256": "f84f50dc1ad8d028124a57d5179f5b6965cc3603781a4586e03ad970b99b2ffd",
-  "published": "2026-11-17T08:12:27Z",
-  "commit": "ca2224f82dd5e44f25f5ea85b6dbe0d61504a4c3",
+  "version": "0.1.47",
+  "url": "0.1.47/workpad-0.1.47.zip",
+  "sha256": "19c554c8779b2b2d8200f3d4c897ec4b9f71ca435d89e9611c614f61ccc64189",
+  "size": 5341018,
+  "exe_sha256": "66ad5d756351837cf7fe7dbd1da5c5a585131056d0aeba0fa5b25b08201d2751",
+  "published": "2026-11-17T08:43:05Z",
+  "commit": "b89f79078c96685ff5e2d4fd326b949e40555dd3",
   "changes": [
+    {
+      "version": "0.1.47",
+      "text": "Updates: check at start and once a day, Help > Check for Updates, status bar item, download with checks and exe swap, restart now or on next start"
+    },
     {
       "version": "0.1.46",
       "text": "Explorer watcher test: give the watch a moment before changing files (wine sets up subfolder watches late); backlog: menu bar spacing, Help > Check for Updates"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.37",
       "text": "Diff tab: a solid, wider scroll bar beside the text that frames the part on screen"
-    },
-    {
-      "version": "0.1.36",
-      "text": "Ctrl+D finds whole words after selecting a word, Ctrl+F2 selects every occurrence, Alt+Up/Down moves the lines of all cursors"
     }
   ],
   "changes_url": "changes.json"
