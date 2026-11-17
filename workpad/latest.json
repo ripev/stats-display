@@ -1,12 +1,16 @@
 {
-  "version": "0.1.49",
-  "url": "0.1.49/workpad-0.1.49.zip",
-  "sha256": "38279b4fdfdd3e65489002d5b4cef1439c8d4d237602c92d2ad18111d3edbcf5",
-  "size": 6129717,
-  "exe_sha256": "7cef510f83c5126114021e821e12d254df10a5b38c9c69dc5ca9703ef28e3099",
-  "published": "2026-11-17T09:18:01Z",
-  "commit": "f04c1e987a457bf17e5f6289c7a04d220c155d52",
+  "version": "0.1.50",
+  "url": "0.1.50/workpad-0.1.50.zip",
+  "sha256": "14e273dce90c60488d04c7f1f49e0ba9b68862b8c24279deb28b7b58c84c72ad",
+  "size": 6137631,
+  "exe_sha256": "fd749add6c04e1ae8a779d62be2ca9a875f3dc87690f2089649c18f736e27a00",
+  "published": "2026-11-17T09:34:23Z",
+  "commit": "689a80d12a966baca832c92ca799bd63a3e7a525",
   "changes": [
+    {
+      "version": "0.1.50",
+      "text": "One folder, one window: a folder open in another window brings that window to the front, a second start opens empty; windows merge what they save in state.toml"
+    },
     {
       "version": "0.1.49",
       "text": "Markdown preview: in a tab (Ctrl+Shift+V) and beside the editor (Ctrl+K V), check boxes toggle the text, links open files or the browser, images from the folder; Open Preview in the explorer's menu"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.40",
       "text": "Side bar: hide view tabs from their context menu, a hidden view opened by a shortcut shows its tab while open"
-    },
-    {
-      "version": "0.1.39",
-      "text": "Terminal: Nerd Font icons fallback, Ctrl+click links, find in output (Ctrl+F)"
     }
   ],
   "changes_url": "changes.json"
