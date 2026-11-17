@@ -1,12 +1,16 @@
 {
-  "version": "0.1.48",
-  "url": "0.1.48/workpad-0.1.48.zip",
-  "sha256": "ed0b9e47c5c9b0e717264c81dc5913dbd762307daf55a118c1634e07aafd4878",
-  "size": 5341033,
-  "exe_sha256": "323bdd51b1726591e0273a4d38fe2beb181c29f343f092b1a939d2469adcfd30",
-  "published": "2026-11-17T08:55:17Z",
-  "commit": "f241a1c30ba57e4324817cbe6c6a4c67849f4364",
+  "version": "0.1.49",
+  "url": "0.1.49/workpad-0.1.49.zip",
+  "sha256": "38279b4fdfdd3e65489002d5b4cef1439c8d4d237602c92d2ad18111d3edbcf5",
+  "size": 6129717,
+  "exe_sha256": "7cef510f83c5126114021e821e12d254df10a5b38c9c69dc5ca9703ef28e3099",
+  "published": "2026-11-17T09:18:01Z",
+  "commit": "f04c1e987a457bf17e5f6289c7a04d220c155d52",
   "changes": [
+    {
+      "version": "0.1.49",
+      "text": "Markdown preview: in a tab (Ctrl+Shift+V) and beside the editor (Ctrl+K V), check boxes toggle the text, links open files or the browser, images from the folder; Open Preview in the explorer's menu"
+    },
     {
       "version": "0.1.48",
       "text": "Title bar: menu names stand apart - 10 pt at the sides, a gap between them, a rounded highlight on hover and while open; backlog: Markdown preview"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.39",
       "text": "Terminal: Nerd Font icons fallback, Ctrl+click links, find in output (Ctrl+F)"
-    },
-    {
-      "version": "0.1.38",
-      "text": "Diff tab: changed chars within lines, sideways scroll, next/previous change"
     }
   ],
   "changes_url": "changes.json"
