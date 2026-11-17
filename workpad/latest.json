@@ -1,12 +1,16 @@
 {
-  "version": "0.1.62",
-  "url": "0.1.62/workpad-0.1.62.zip",
-  "sha256": "ba64b3b939fcc692b590d4ee2d0548e2da084a36179bad6916b948ba11c3c1db",
-  "size": 6263996,
-  "exe_sha256": "f8c6d32779418746db9e4370626b98e2ebf0f6dd80c61571007858628b5541dc",
-  "published": "2026-11-17T18:56:05Z",
-  "commit": "7a424687b7d86df29e6129fe8b5d5636e06a7b69",
+  "version": "0.1.63",
+  "url": "0.1.63/workpad-0.1.63.zip",
+  "sha256": "32ba99a8119ab04540dcc1517101d209c2180de660439f252cafbd9641b95df2",
+  "size": 6264210,
+  "exe_sha256": "b1d90bce0c7d455f236f383e249be3dd586cce12c69f166edf865509029676f2",
+  "published": "2026-11-17T19:09:16Z",
+  "commit": "f62f59481077311209de2bc9da22d23e4b781c5c",
   "changes": [
+    {
+      "version": "0.1.63",
+      "text": "About and readme: the app icon credited as \"Icon by customicondesign_1 from Flaticon\" with links to the icon, the author and Flaticon"
+    },
     {
       "version": "0.1.62",
       "text": "Git: partial staging - Stage Change in the editor's change window stages just that hunk as the editor has it; in a git diff tab lines are selected (click, Shift+click, drag) and staged or unstaged with Stage Lines / Unstage Lines"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.54",
       "text": "New window: Ctrl+Shift+N, File > New Window and the palette start an empty window offset from this one; the terminal leaves the key to the window"
-    },
-    {
-      "version": "0.1.53",
-      "text": "Update notice: \"updated to X\" shows once - the state is saved without it on the first frame, new windows do not show it again"
     }
   ],
   "changes_url": "changes.json"
