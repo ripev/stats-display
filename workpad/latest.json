@@ -1,12 +1,32 @@
 {
-  "version": "0.1.57",
-  "url": "0.1.57/workpad-0.1.57.zip",
-  "sha256": "78dede52e4f97edf23240815dec834909f51ef74c6449fd5a6cd47f4162f28f8",
-  "size": 6223438,
-  "exe_sha256": "5fcd27c5e06ed2368d03ccd70935027a8d2400222db2ddea1476043564d6ca94",
-  "published": "2026-11-17T12:40:16Z",
-  "commit": "61cc711168a63a3dbe63d2564a968defec9361a1",
+  "version": "0.1.62",
+  "url": "0.1.62/workpad-0.1.62.zip",
+  "sha256": "ba64b3b939fcc692b590d4ee2d0548e2da084a36179bad6916b948ba11c3c1db",
+  "size": 6263996,
+  "exe_sha256": "f8c6d32779418746db9e4370626b98e2ebf0f6dd80c61571007858628b5541dc",
+  "published": "2026-11-17T18:56:05Z",
+  "commit": "7a424687b7d86df29e6129fe8b5d5636e06a7b69",
   "changes": [
+    {
+      "version": "0.1.62",
+      "text": "Git: partial staging - Stage Change in the editor's change window stages just that hunk as the editor has it; in a git diff tab lines are selected (click, Shift+click, drag) and staged or unstaged with Stage Lines / Unstage Lines"
+    },
+    {
+      "version": "0.1.61",
+      "text": "Git: stash - the box button over Changes and the palette stash with a message typed in the palette (or with new files too); Stashes section with files and Apply / Pop / Drop, apply or pop the latest or a picked stash from the palette"
+    },
+    {
+      "version": "0.1.60",
+      "text": "Editor: lines changed against git's index marked in the gutter and on the scroll bar; a click on a mark shows the change under its lines with Revert Change, previous / next and Escape to close"
+    },
+    {
+      "version": "0.1.59",
+      "text": "Explorer: git colors - changed files in their status color with M / A / U / ! on the right, a dot on folders with changes inside, ignored files dimmed, the status in the tooltip"
+    },
+    {
+      "version": "0.1.58",
+      "text": "Recent folders: the cross on the selected or hovered row of Ctrl+R and Shift+Delete take a folder off the list, the list stays open"
+    },
     {
       "version": "0.1.57",
       "text": "Editor: Alt+Shift+Down/Up copy the lines of every cursor down or up, as one undo step"
@@ -26,26 +46,6 @@
     {
       "version": "0.1.53",
       "text": "Update notice: \"updated to X\" shows once - the state is saved without it on the first frame, new windows do not show it again"
-    },
-    {
-      "version": "0.1.52",
-      "text": "Terminal: keys go to the terminal (tmux's Ctrl+B, the shell's Ctrl+W) but the window's few, the wheel and clicks to programs that asked for the mouse, arrows in full-screen ones"
-    },
-    {
-      "version": "0.1.51",
-      "text": "Remote: folders on SSH hosts - one ssh.exe channel per host, files, quick open, TODO, search and git on the host, ssh terminal, password window (SSH_ASKPASS), connecting in the background"
-    },
-    {
-      "version": "0.1.50",
-      "text": "One folder, one window: a folder open in another window brings that window to the front, a second start opens empty; windows merge what they save in state.toml"
-    },
-    {
-      "version": "0.1.49",
-      "text": "Markdown preview: in a tab (Ctrl+Shift+V) and beside the editor (Ctrl+K V), check boxes toggle the text, links open files or the browser, images from the folder; Open Preview in the explorer's menu"
-    },
-    {
-      "version": "0.1.48",
-      "text": "Title bar: menu names stand apart - 10 pt at the sides, a gap between them, a rounded highlight on hover and while open; backlog: Markdown preview"
     }
   ],
   "changes_url": "changes.json"
