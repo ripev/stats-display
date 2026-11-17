@@ -1,12 +1,16 @@
 {
-  "version": "0.1.50",
-  "url": "0.1.50/workpad-0.1.50.zip",
-  "sha256": "14e273dce90c60488d04c7f1f49e0ba9b68862b8c24279deb28b7b58c84c72ad",
-  "size": 6137631,
-  "exe_sha256": "fd749add6c04e1ae8a779d62be2ca9a875f3dc87690f2089649c18f736e27a00",
-  "published": "2026-11-17T09:34:23Z",
-  "commit": "689a80d12a966baca832c92ca799bd63a3e7a525",
+  "version": "0.1.51",
+  "url": "0.1.51/workpad-0.1.51.zip",
+  "sha256": "8802ee0305fe1d262539e854773d12ed3c24a6522f31ee54b19f568f05949d71",
+  "size": 6192322,
+  "exe_sha256": "ae48178e8292224dc8f76c40896beeced8eaa07ce43b6db8596330f7b5ce1268",
+  "published": "2026-11-17T10:08:23Z",
+  "commit": "27d0cdacf506fefb724f7aeff1965bda97e62449",
   "changes": [
+    {
+      "version": "0.1.51",
+      "text": "Remote: folders on SSH hosts - one ssh.exe channel per host, files, quick open, TODO, search and git on the host, ssh terminal, password window (SSH_ASKPASS), connecting in the background"
+    },
     {
       "version": "0.1.50",
       "text": "One folder, one window: a folder open in another window brings that window to the front, a second start opens empty; windows merge what they save in state.toml"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.41",
       "text": "Ctrl+R picks a recent folder by name in the palette, the open one left out; in a terminal Ctrl+R stays the shell's"
-    },
-    {
-      "version": "0.1.40",
-      "text": "Side bar: hide view tabs from their context menu, a hidden view opened by a shortcut shows its tab while open"
     }
   ],
   "changes_url": "changes.json"
