@@ -1,12 +1,16 @@
 {
-  "version": "0.1.53",
-  "url": "0.1.53/workpad-0.1.53.zip",
-  "sha256": "611dc376af4b10307b5a2fa1e4d6d57e973193a32b52d5e49d6b5e70e41066eb",
-  "size": 6194813,
-  "exe_sha256": "671c0cbdc74bc8093bdb7b19397b18778ebea775f08a262edbd1fee3a7483b4c",
-  "published": "2026-11-17T10:17:56Z",
-  "commit": "93665ad0d6aa67b1f37282142f7dd28da685bdab",
+  "version": "0.1.54",
+  "url": "0.1.54/workpad-0.1.54.zip",
+  "sha256": "9b377631a4ac291c0f02bd8fb73954100e662b6afa75cf8c8c881a598d60705f",
+  "size": 6195345,
+  "exe_sha256": "9e92b94d62ebe59db8203860ad641e48ec85a990af8b088cc73e49e19d856a72",
+  "published": "2026-11-17T12:10:45Z",
+  "commit": "d32c7e4bc74b65cee38d390390d53f1b3410c226",
   "changes": [
+    {
+      "version": "0.1.54",
+      "text": "New window: Ctrl+Shift+N, File > New Window and the palette start an empty window offset from this one; the terminal leaves the key to the window"
+    },
     {
       "version": "0.1.53",
       "text": "Update notice: \"updated to X\" shows once - the state is saved without it on the first frame, new windows do not show it again"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.44",
       "text": "Ctrl+R: keep 100 recent folders, show ten and scroll through the rest with the arrows, PageUp/PageDown, the wheel or by typing"
-    },
-    {
-      "version": "0.1.43",
-      "text": "Remote: open folders in WSL - files through \\wsl.localhost, git and the terminal inside the distro, polling for changes, remote indicator in the status bar"
     }
   ],
   "changes_url": "changes.json"
