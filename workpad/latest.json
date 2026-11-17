@@ -1,12 +1,16 @@
 {
-  "version": "0.1.47",
-  "url": "0.1.47/workpad-0.1.47.zip",
-  "sha256": "19c554c8779b2b2d8200f3d4c897ec4b9f71ca435d89e9611c614f61ccc64189",
-  "size": 5341018,
-  "exe_sha256": "66ad5d756351837cf7fe7dbd1da5c5a585131056d0aeba0fa5b25b08201d2751",
-  "published": "2026-11-17T08:43:05Z",
-  "commit": "b89f79078c96685ff5e2d4fd326b949e40555dd3",
+  "version": "0.1.48",
+  "url": "0.1.48/workpad-0.1.48.zip",
+  "sha256": "ed0b9e47c5c9b0e717264c81dc5913dbd762307daf55a118c1634e07aafd4878",
+  "size": 5341033,
+  "exe_sha256": "323bdd51b1726591e0273a4d38fe2beb181c29f343f092b1a939d2469adcfd30",
+  "published": "2026-11-17T08:55:17Z",
+  "commit": "f241a1c30ba57e4324817cbe6c6a4c67849f4364",
   "changes": [
+    {
+      "version": "0.1.48",
+      "text": "Title bar: menu names stand apart - 10 pt at the sides, a gap between them, a rounded highlight on hover and while open; backlog: Markdown preview"
+    },
     {
       "version": "0.1.47",
       "text": "Updates: check at start and once a day, Help > Check for Updates, status bar item, download with checks and exe swap, restart now or on next start"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.38",
       "text": "Diff tab: changed chars within lines, sideways scroll, next/previous change"
-    },
-    {
-      "version": "0.1.37",
-      "text": "Diff tab: a solid, wider scroll bar beside the text that frames the part on screen"
     }
   ],
   "changes_url": "changes.json"
