@@ -1,12 +1,28 @@
 {
-  "version": "0.1.63",
-  "url": "0.1.63/workpad-0.1.63.zip",
-  "sha256": "32ba99a8119ab04540dcc1517101d209c2180de660439f252cafbd9641b95df2",
-  "size": 6264210,
-  "exe_sha256": "b1d90bce0c7d455f236f383e249be3dd586cce12c69f166edf865509029676f2",
-  "published": "2026-11-17T19:09:16Z",
-  "commit": "f62f59481077311209de2bc9da22d23e4b781c5c",
+  "version": "0.1.67",
+  "url": "0.1.67/workpad-0.1.67.zip",
+  "sha256": "8109c2bf2f4ae74858ea98c72894c603730a345db3edaa20102a5a37b9f0b679",
+  "size": 6267488,
+  "exe_sha256": "222f0d2cbb034c148b49e629f0a6877ced4fb3654ed7abdfc926ad576a182d0d",
+  "published": "2026-11-18T11:45:08Z",
+  "commit": "9c05b75186676a52b5a6e3969f68a1616ecd4177",
   "changes": [
+    {
+      "version": "0.1.67",
+      "text": "Editor: the active file's path relative to the open folder under the tabs, as VS Code's breadcrumbs - the first folders give way to \"...\" when long, the whole path outside the folder and in the tooltip"
+    },
+    {
+      "version": "0.1.66",
+      "text": "Find: lines with matches marked on the editor's scroll bar (right of the git change marks), the selected match brighter"
+    },
+    {
+      "version": "0.1.65",
+      "text": "Find widget: held by its right edge and kept inside the editor - its row came out wider than 440 and covered a terminal beside the editor"
+    },
+    {
+      "version": "0.1.64",
+      "text": "Status bar: the open folder's path is gone (it shows in the title bar and the explorer); a remote folder still shows in the remote indicator"
+    },
     {
       "version": "0.1.63",
       "text": "About and readme: the app icon credited as \"Icon by customicondesign_1 from Flaticon\" with links to the icon, the author and Flaticon"
@@ -30,22 +46,6 @@
     {
       "version": "0.1.58",
       "text": "Recent folders: the cross on the selected or hovered row of Ctrl+R and Shift+Delete take a folder off the list, the list stays open"
-    },
-    {
-      "version": "0.1.57",
-      "text": "Editor: Alt+Shift+Down/Up copy the lines of every cursor down or up, as one undo step"
-    },
-    {
-      "version": "0.1.56",
-      "text": "Git: merge conflicts - blocks tinted in the editor with Accept Current / Incoming / Both on the first marker and for all blocks over the text, Compare; Merge Changes section (take a side whole, compare, mark resolved); Continue and Abort for a stopped merge, rebase, cherry-pick or revert"
-    },
-    {
-      "version": "0.1.55",
-      "text": "Git: incoming commits seen before pushing - background fetch every 3 min (git_autofetch, no password or login windows), incoming on top of the history and outgoing marked, Sync Changes (pull --rebase --autostash, then push) and Publish Branch under Commit, a refused push offers to pull and push; a branch without upstream is compared with origin/<branch>"
-    },
-    {
-      "version": "0.1.54",
-      "text": "New window: Ctrl+Shift+N, File > New Window and the palette start an empty window offset from this one; the terminal leaves the key to the window"
     }
   ],
   "changes_url": "changes.json"
