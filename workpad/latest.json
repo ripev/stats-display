@@ -1,12 +1,32 @@
 {
-  "version": "0.1.67",
-  "url": "0.1.67/workpad-0.1.67.zip",
-  "sha256": "8109c2bf2f4ae74858ea98c72894c603730a345db3edaa20102a5a37b9f0b679",
-  "size": 6267488,
-  "exe_sha256": "222f0d2cbb034c148b49e629f0a6877ced4fb3654ed7abdfc926ad576a182d0d",
-  "published": "2026-11-18T11:45:08Z",
-  "commit": "9c05b75186676a52b5a6e3969f68a1616ecd4177",
+  "version": "0.1.72",
+  "url": "0.1.72/workpad-0.1.72.zip",
+  "sha256": "605101a9c58ed2a1ea308a3094fe2f72f9b2f340df3cef58a05dc23eec203700",
+  "size": 6315215,
+  "exe_sha256": "6bd71fef265d3a70116c1a0879118a1229ca76a3097e21286b1f06b420d6c148",
+  "published": "2026-11-18T21:19:50Z",
+  "commit": "547b246d6a3188917e9a64a49215550694f35520",
   "changes": [
+    {
+      "version": "0.1.72",
+      "text": "Git: the history as a graph, as VS Code's - lanes of branches and merges, the server's branch beside ours (its commits not pulled yet in a lane of their own), branch and tag labels at the commits, how the branch stands against the server's above the history"
+    },
+    {
+      "version": "0.1.71",
+      "text": "Editor: code folding as in VS Code - blocks by indentation and #region, Markdown sections, code blocks and lists; chevrons in the gutter, \"...\" after a folded line, Ctrl+Shift+[ / ], Ctrl+K Ctrl+L / [ / ] / 0 / J / 1-7; folds move with edits and are kept with the tabs"
+    },
+    {
+      "version": "0.1.70",
+      "text": "Editor: who last changed the cursor's line, faint after its text as GitLens shows it - author, age and commit message, the details on hover; git blame of the editor's text (unsaved too) in the background, off with git_blame = false"
+    },
+    {
+      "version": "0.1.69",
+      "text": "Status bar: a sync item next to the branch, as VS Code's - pull and push the incoming / outgoing commits counted on it, fetch when there are none, publish a branch the server has not got, a spinner while it runs"
+    },
+    {
+      "version": "0.1.68",
+      "text": "Terminal: Shift+Enter makes a new line - a pasted line break for programs with bracketed paste (Claude Code, through tmux too), Alt+Enter for the others"
+    },
     {
       "version": "0.1.67",
       "text": "Editor: the active file's path relative to the open folder under the tabs, as VS Code's breadcrumbs - the first folders give way to \"...\" when long, the whole path outside the folder and in the tooltip"
@@ -26,26 +46,6 @@
     {
       "version": "0.1.63",
       "text": "About and readme: the app icon credited as \"Icon by customicondesign_1 from Flaticon\" with links to the icon, the author and Flaticon"
-    },
-    {
-      "version": "0.1.62",
-      "text": "Git: partial staging - Stage Change in the editor's change window stages just that hunk as the editor has it; in a git diff tab lines are selected (click, Shift+click, drag) and staged or unstaged with Stage Lines / Unstage Lines"
-    },
-    {
-      "version": "0.1.61",
-      "text": "Git: stash - the box button over Changes and the palette stash with a message typed in the palette (or with new files too); Stashes section with files and Apply / Pop / Drop, apply or pop the latest or a picked stash from the palette"
-    },
-    {
-      "version": "0.1.60",
-      "text": "Editor: lines changed against git's index marked in the gutter and on the scroll bar; a click on a mark shows the change under its lines with Revert Change, previous / next and Escape to close"
-    },
-    {
-      "version": "0.1.59",
-      "text": "Explorer: git colors - changed files in their status color with M / A / U / ! on the right, a dot on folders with changes inside, ignored files dimmed, the status in the tooltip"
-    },
-    {
-      "version": "0.1.58",
-      "text": "Recent folders: the cross on the selected or hovered row of Ctrl+R and Shift+Delete take a folder off the list, the list stays open"
     }
   ],
   "changes_url": "changes.json"
