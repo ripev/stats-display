@@ -1,12 +1,16 @@
 {
-  "version": "0.1.111",
-  "url": "0.1.111/stats-display-0.1.111.zip",
-  "sha256": "253c84a3f28dd066344a7875cbba00c1203720bc9bba6d93a2af66ca49c54911",
-  "size": 4499049,
-  "exe_sha256": "2325cb8eaefacf5966a7ab68c9e4f608fb9c4e3a54eab21e2c7ba147eedd4370",
-  "published": "2026-11-16T16:17:07Z",
-  "commit": "ef9e70762f24c51bf39364696b9ce8a8d3d2a108",
+  "version": "0.1.112",
+  "url": "0.1.112/stats-display-0.1.112.zip",
+  "sha256": "5b160675d25cf78c47cb888da50d0da57a8f1669bc328f88b3bc12d0ab71a04e",
+  "size": 4502378,
+  "exe_sha256": "5224a9aa485c3969e910e8f8e98f1f532d663865497819f4cf1ba3ab36abdc15",
+  "published": "2026-11-19T17:49:04Z",
+  "commit": "2b200a7d9744f2ae1908e84390977c8db4090de3",
   "changes": [
+    {
+      "version": "0.1.112",
+      "text": "Tempo: Ctrl+T shows today's worklogs and the timer as the day scale; a selected interval opens the worklog form"
+    },
     {
       "version": "0.1.111",
       "text": "Settings: the list of sections scrolls, so Save and Close are not cut off at the bottom"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.103",
       "text": "My events: finished events go above the rest and show only when scrolling up, the screen opens on the first not finished one"
-    },
-    {
-      "version": "0.1.102",
-      "text": "Events list: past own events show only when scrolling up, the scroll position is kept relative to \"now\""
     }
   ],
   "changes_url": "changes.json"
