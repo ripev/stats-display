@@ -1,12 +1,20 @@
 {
-  "version": "0.1.79",
-  "url": "0.1.79/workpad-0.1.79.zip",
-  "sha256": "3b70945e3630b4af808623e919ba66f49257684398e10cb43e7b4ac996f8941d",
-  "size": 6395784,
-  "exe_sha256": "2b2936ae5c3808574413162d2aadfbd1d8339f3aad90d0f4b82ff784cb8ad267",
-  "published": "2026-11-19T11:24:35Z",
-  "commit": "5bd960ab85798d9e854421823566d12b74c8ec04",
+  "version": "0.1.81",
+  "url": "0.1.81/workpad-0.1.81.zip",
+  "sha256": "e1c0128837465ee8c2c15e9f05e153694f5e73e0181f73e8763a2fcf4de48da3",
+  "size": 6471247,
+  "exe_sha256": "01924286e9263a1f1fa42f8dd3438626d04047ec92bd9e998dcdcf623aa7306e",
+  "published": "2026-11-19T11:52:25Z",
+  "commit": "ec11edc9d7c72e89e92e1ecf20cac6bf4d6c16ed",
   "changes": [
+    {
+      "version": "0.1.81",
+      "text": "State: values of another version's state.toml are dropped one by one, the recent folders and tabs kept"
+    },
+    {
+      "version": "0.1.80",
+      "text": "Title rows: a long title runs under the buttons, veiled there, in every view - not into them in a narrow panel"
+    },
     {
       "version": "0.1.79",
       "text": "GitLab view: merge requests and issues, the branch's last pipeline with run / cancel / retry, job logs in the editor"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.72",
       "text": "Git: the history as a graph, as VS Code's - lanes of branches and merges, the server's branch beside ours (its commits not pulled yet in a lane of their own), branch and tag labels at the commits, how the branch stands against the server's above the history"
-    },
-    {
-      "version": "0.1.71",
-      "text": "Editor: code folding as in VS Code - blocks by indentation and #region, Markdown sections, code blocks and lists; chevrons in the gutter, \"...\" after a folded line, Ctrl+Shift+[ / ], Ctrl+K Ctrl+L / [ / ] / 0 / J / 1-7; folds move with edits and are kept with the tabs"
-    },
-    {
-      "version": "0.1.70",
-      "text": "Editor: who last changed the cursor's line, faint after its text as GitLens shows it - author, age and commit message, the details on hover; git blame of the editor's text (unsaved too) in the background, off with git_blame = false"
     }
   ],
   "changes_url": "changes.json"
