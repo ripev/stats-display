@@ -1,12 +1,32 @@
 {
-  "version": "0.1.72",
-  "url": "0.1.72/workpad-0.1.72.zip",
-  "sha256": "605101a9c58ed2a1ea308a3094fe2f72f9b2f340df3cef58a05dc23eec203700",
-  "size": 6315215,
-  "exe_sha256": "6bd71fef265d3a70116c1a0879118a1229ca76a3097e21286b1f06b420d6c148",
-  "published": "2026-11-18T21:19:50Z",
-  "commit": "547b246d6a3188917e9a64a49215550694f35520",
+  "version": "0.1.77",
+  "url": "0.1.77/workpad-0.1.77.zip",
+  "sha256": "9b8aace2a7187775f6fc35e502b0404aece13d5845fe98c4848a8274c70eefb9",
+  "size": 6316442,
+  "exe_sha256": "6b7003efffdd90654dfd72ab16c74a1537d1ed3d9e9a09a6bb63681af08a7a7d",
+  "published": "2026-11-19T07:43:09Z",
+  "commit": "8ac58adbbbb3173fd6454d2a9fc8fde3a26fd564",
   "changes": [
+    {
+      "version": "0.1.77",
+      "text": "Git history: commits not pushed yet in a brighter color of their own - the dot, the subject and the arrow"
+    },
+    {
+      "version": "0.1.76",
+      "text": "Git history: the branch and tag labels before the commit's subject"
+    },
+    {
+      "version": "0.1.75",
+      "text": "Git history: the subject starts just past its own row's lanes, not the widest row's of the whole history"
+    },
+    {
+      "version": "0.1.74",
+      "text": "Git: the repository's name runs under the header's buttons, dimmed there, instead of into them in a narrow side bar"
+    },
+    {
+      "version": "0.1.73",
+      "text": "Editor: Ctrl+] / Ctrl+[ indent and outdent the cursor's line (the selected lines), as in VS Code"
+    },
     {
       "version": "0.1.72",
       "text": "Git: the history as a graph, as VS Code's - lanes of branches and merges, the server's branch beside ours (its commits not pulled yet in a lane of their own), branch and tag labels at the commits, how the branch stands against the server's above the history"
@@ -26,26 +46,6 @@
     {
       "version": "0.1.68",
       "text": "Terminal: Shift+Enter makes a new line - a pasted line break for programs with bracketed paste (Claude Code, through tmux too), Alt+Enter for the others"
-    },
-    {
-      "version": "0.1.67",
-      "text": "Editor: the active file's path relative to the open folder under the tabs, as VS Code's breadcrumbs - the first folders give way to \"...\" when long, the whole path outside the folder and in the tooltip"
-    },
-    {
-      "version": "0.1.66",
-      "text": "Find: lines with matches marked on the editor's scroll bar (right of the git change marks), the selected match brighter"
-    },
-    {
-      "version": "0.1.65",
-      "text": "Find widget: held by its right edge and kept inside the editor - its row came out wider than 440 and covered a terminal beside the editor"
-    },
-    {
-      "version": "0.1.64",
-      "text": "Status bar: the open folder's path is gone (it shows in the title bar and the explorer); a remote folder still shows in the remote indicator"
-    },
-    {
-      "version": "0.1.63",
-      "text": "About and readme: the app icon credited as \"Icon by customicondesign_1 from Flaticon\" with links to the icon, the author and Flaticon"
     }
   ],
   "changes_url": "changes.json"
