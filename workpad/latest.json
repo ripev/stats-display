@@ -1,12 +1,16 @@
 {
-  "version": "0.1.77",
-  "url": "0.1.77/workpad-0.1.77.zip",
-  "sha256": "9b8aace2a7187775f6fc35e502b0404aece13d5845fe98c4848a8274c70eefb9",
-  "size": 6316442,
-  "exe_sha256": "6b7003efffdd90654dfd72ab16c74a1537d1ed3d9e9a09a6bb63681af08a7a7d",
-  "published": "2026-11-19T07:43:09Z",
-  "commit": "8ac58adbbbb3173fd6454d2a9fc8fde3a26fd564",
+  "version": "0.1.78",
+  "url": "0.1.78/workpad-0.1.78.zip",
+  "sha256": "512b11ad5460de1965034d4a339937cee44f47099717858b40f469f10db209b6",
+  "size": 6316711,
+  "exe_sha256": "7825236157b519af22410ab5022d98cd8ef5f4e475409fdf8013aea9a7e1f630",
+  "published": "2026-11-19T09:05:49Z",
+  "commit": "49a4668f6a8dad10d7c3e95d89a46e31414c6948",
   "changes": [
+    {
+      "version": "0.1.78",
+      "text": "Cleanup by clippy: the terminal unlocked before laying out its text, UTF-8 checked once on opening a file"
+    },
     {
       "version": "0.1.77",
       "text": "Git history: commits not pushed yet in a brighter color of their own - the dot, the subject and the arrow"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.69",
       "text": "Status bar: a sync item next to the branch, as VS Code's - pull and push the incoming / outgoing commits counted on it, fetch when there are none, publish a branch the server has not got, a spinner while it runs"
-    },
-    {
-      "version": "0.1.68",
-      "text": "Terminal: Shift+Enter makes a new line - a pasted line break for programs with bracketed paste (Claude Code, through tmux too), Alt+Enter for the others"
     }
   ],
   "changes_url": "changes.json"
