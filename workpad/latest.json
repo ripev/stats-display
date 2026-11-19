@@ -1,12 +1,16 @@
 {
-  "version": "0.1.78",
-  "url": "0.1.78/workpad-0.1.78.zip",
-  "sha256": "512b11ad5460de1965034d4a339937cee44f47099717858b40f469f10db209b6",
-  "size": 6316711,
-  "exe_sha256": "7825236157b519af22410ab5022d98cd8ef5f4e475409fdf8013aea9a7e1f630",
-  "published": "2026-11-19T09:05:49Z",
-  "commit": "49a4668f6a8dad10d7c3e95d89a46e31414c6948",
+  "version": "0.1.79",
+  "url": "0.1.79/workpad-0.1.79.zip",
+  "sha256": "3b70945e3630b4af808623e919ba66f49257684398e10cb43e7b4ac996f8941d",
+  "size": 6395784,
+  "exe_sha256": "2b2936ae5c3808574413162d2aadfbd1d8339f3aad90d0f4b82ff784cb8ad267",
+  "published": "2026-11-19T11:24:35Z",
+  "commit": "5bd960ab85798d9e854421823566d12b74c8ec04",
   "changes": [
+    {
+      "version": "0.1.79",
+      "text": "GitLab view: merge requests and issues, the branch's last pipeline with run / cancel / retry, job logs in the editor"
+    },
     {
       "version": "0.1.78",
       "text": "Cleanup by clippy: the terminal unlocked before laying out its text, UTF-8 checked once on opening a file"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.70",
       "text": "Editor: who last changed the cursor's line, faint after its text as GitLens shows it - author, age and commit message, the details on hover; git blame of the editor's text (unsaved too) in the background, off with git_blame = false"
-    },
-    {
-      "version": "0.1.69",
-      "text": "Status bar: a sync item next to the branch, as VS Code's - pull and push the incoming / outgoing commits counted on it, fetch when there are none, publish a branch the server has not got, a spinner while it runs"
     }
   ],
   "changes_url": "changes.json"
