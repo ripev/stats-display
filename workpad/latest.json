@@ -1,12 +1,16 @@
 {
-  "version": "0.1.81",
-  "url": "0.1.81/workpad-0.1.81.zip",
-  "sha256": "e1c0128837465ee8c2c15e9f05e153694f5e73e0181f73e8763a2fcf4de48da3",
-  "size": 6471247,
-  "exe_sha256": "01924286e9263a1f1fa42f8dd3438626d04047ec92bd9e998dcdcf623aa7306e",
-  "published": "2026-11-19T11:52:25Z",
-  "commit": "ec11edc9d7c72e89e92e1ecf20cac6bf4d6c16ed",
+  "version": "0.1.82",
+  "url": "0.1.82/workpad-0.1.82.zip",
+  "sha256": "94c3562d8ff3e073c1874227d86120f3d24f3fc4f1608efd58409248c397f103",
+  "size": 6472402,
+  "exe_sha256": "d2f75df3f5fbafa0b6bd2bd17e9795f4c11d9eff6aa45c237735297e94b3c6ee",
+  "published": "2026-11-19T20:53:13Z",
+  "commit": "764f9012139e6f22784a9b79bf1235a11ef29e37",
   "changes": [
+    {
+      "version": "0.1.82",
+      "text": "Terminal: a mouse selection starts where the button went down, not a cell aside where the drag was recognized"
+    },
     {
       "version": "0.1.81",
       "text": "State: values of another version's state.toml are dropped one by one, the recent folders and tabs kept"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.73",
       "text": "Editor: Ctrl+] / Ctrl+[ indent and outdent the cursor's line (the selected lines), as in VS Code"
-    },
-    {
-      "version": "0.1.72",
-      "text": "Git: the history as a graph, as VS Code's - lanes of branches and merges, the server's branch beside ours (its commits not pulled yet in a lane of their own), branch and tag labels at the commits, how the branch stands against the server's above the history"
     }
   ],
   "changes_url": "changes.json"
