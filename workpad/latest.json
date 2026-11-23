@@ -1,12 +1,20 @@
 {
-  "version": "0.1.82",
-  "url": "0.1.82/workpad-0.1.82.zip",
-  "sha256": "94c3562d8ff3e073c1874227d86120f3d24f3fc4f1608efd58409248c397f103",
-  "size": 6472402,
-  "exe_sha256": "d2f75df3f5fbafa0b6bd2bd17e9795f4c11d9eff6aa45c237735297e94b3c6ee",
-  "published": "2026-11-19T20:53:13Z",
-  "commit": "764f9012139e6f22784a9b79bf1235a11ef29e37",
+  "version": "0.1.84",
+  "url": "0.1.84/workpad-0.1.84.zip",
+  "sha256": "e3c040c00ffe7d25ab3270e5cbda261ea2798344fc6aebf11df7165b1d851246",
+  "size": 6475970,
+  "exe_sha256": "09994ff2a378d426a34eba11d25ae9448e2bdd246aacf0c2750f4ea152fb32bd",
+  "published": "2026-11-23T07:34:11Z",
+  "commit": "b8acc83d49a5c2049d150bd8c45083b881e7f1ce",
   "changes": [
+    {
+      "version": "0.1.84",
+      "text": "Git history: a commit's context menu copies its whole message or its hash"
+    },
+    {
+      "version": "0.1.83",
+      "text": "State: state.toml is replaced whole under a lock between windows, a broken tail dropped on reading"
+    },
     {
       "version": "0.1.82",
       "text": "Terminal: a mouse selection starts where the button went down, not a cell aside where the drag was recognized"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.75",
       "text": "Git history: the subject starts just past its own row's lanes, not the widest row's of the whole history"
-    },
-    {
-      "version": "0.1.74",
-      "text": "Git: the repository's name runs under the header's buttons, dimmed there, instead of into them in a narrow side bar"
-    },
-    {
-      "version": "0.1.73",
-      "text": "Editor: Ctrl+] / Ctrl+[ indent and outdent the cursor's line (the selected lines), as in VS Code"
     }
   ],
   "changes_url": "changes.json"
