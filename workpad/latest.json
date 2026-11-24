@@ -1,12 +1,16 @@
 {
-  "version": "0.1.99",
-  "url": "0.1.99/workpad-0.1.99.zip",
-  "sha256": "45cf7f63faece4ffe9849fe92edfa6e0f1ec1bc76d190e68a8692b92443e675d",
-  "size": 6657694,
-  "exe_sha256": "24dcb0dbc45246457bc01d23a914e31c51370de2438e4c27a0e875ef3d775823",
-  "published": "2026-11-24T15:45:54Z",
-  "commit": "be259d9f7e999ad7ec0b284f82ac75c90b225f02",
+  "version": "0.1.100",
+  "url": "0.1.100/workpad-0.1.100.zip",
+  "sha256": "bceea15963d1915a8c620ca158017b8bab27567dda4e2728876f043f3bff52c1",
+  "size": 6658723,
+  "exe_sha256": "231e0857e54a95e9fe65040c6b2dbe837c41f0948600437038fc1100d9e0861c",
+  "published": "2026-11-24T19:21:04Z",
+  "commit": "9bd5b5644d23d8fd56592614ebaa5943cdc5a94c",
   "changes": [
+    {
+      "version": "0.1.100",
+      "text": "Terminal: files dragged from the explorer type their relative paths"
+    },
     {
       "version": "0.1.99",
       "text": "Editor: an opened file takes the indentation its text uses"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.91",
       "text": "Side bar lists scroll sideways: a bar at the bottom and Shift+wheel"
-    },
-    {
-      "version": "0.1.90",
-      "text": "Git history: commits stay open, and the active tab's commit file is revealed"
     }
   ],
   "changes_url": "changes.json"
