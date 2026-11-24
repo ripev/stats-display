@@ -1,12 +1,20 @@
 {
-  "version": "0.1.100",
-  "url": "0.1.100/workpad-0.1.100.zip",
-  "sha256": "bceea15963d1915a8c620ca158017b8bab27567dda4e2728876f043f3bff52c1",
-  "size": 6658723,
-  "exe_sha256": "231e0857e54a95e9fe65040c6b2dbe837c41f0948600437038fc1100d9e0861c",
-  "published": "2026-11-24T19:21:04Z",
-  "commit": "9bd5b5644d23d8fd56592614ebaa5943cdc5a94c",
+  "version": "0.1.102",
+  "url": "0.1.102/workpad-0.1.102.zip",
+  "sha256": "0ed613070dc62f4641c0a6d2a3cc668d685c91cc1437d85f6f5a9aa1edc92bcb",
+  "size": 6629325,
+  "exe_sha256": "70ea7a894844156c9c8ffaf3a434b3f1fe95bd8ebe5801f843c78b76cfcbe4b2",
+  "published": "2026-11-24T20:08:48Z",
+  "commit": "23da349b42807be7be5fc244d469e64aabd7efec",
   "changes": [
+    {
+      "version": "0.1.102",
+      "text": "Tests: the explorer watcher test survives a slow inotify under wine"
+    },
+    {
+      "version": "0.1.101",
+      "text": "Markdown preview: own rendering in theme colors, synced scrolling"
+    },
     {
       "version": "0.1.100",
       "text": "Terminal: files dragged from the explorer type their relative paths"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.93",
       "text": "Forgejo in the GitLab view: the branch's Actions run, pull requests, issues"
-    },
-    {
-      "version": "0.1.92",
-      "text": "Diff tab: text is selected in either column and copied"
-    },
-    {
-      "version": "0.1.91",
-      "text": "Side bar lists scroll sideways: a bar at the bottom and Shift+wheel"
     }
   ],
   "changes_url": "changes.json"
