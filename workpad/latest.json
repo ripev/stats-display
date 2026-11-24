@@ -1,12 +1,16 @@
 {
-  "version": "0.1.94",
-  "url": "0.1.94/workpad-0.1.94.zip",
-  "sha256": "5eefbc3081f79ffc6ef51b658da402354bd191ef45311cce167d21639c807f42",
-  "size": 6577265,
-  "exe_sha256": "f509ae0ee889b107c9f22f02667f27fe8c043e1c5700dd01fb2451db0a52c56f",
-  "published": "2026-11-24T13:01:37Z",
-  "commit": "f7b656575d9232a9ec7faee0e078a3254292b2f2",
+  "version": "0.1.95",
+  "url": "0.1.95/workpad-0.1.95.zip",
+  "sha256": "ae968dd5ca292bdca439d2bd6f1cc05858a92e1b509679d40d09d1002ab74f0d",
+  "size": 6578599,
+  "exe_sha256": "07efa1a07c7aa9084f45e16b71afb2472ddb08a290c8185ba784b30a8641efc9",
+  "published": "2026-11-24T14:33:57Z",
+  "commit": "579ca115be673ad44e2299cf0e225c84edfea623",
   "changes": [
+    {
+      "version": "0.1.95",
+      "text": "Explorer: an icon for Nginx configs (nginx.conf, *.nginx, sites-available/...)"
+    },
     {
       "version": "0.1.94",
       "text": "Diff tab: the text is highlighted by the file's language, as in the editor"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.86",
       "text": "Explorer: dragging with Ctrl held copies - into the same folder as \"a copy.txt\""
-    },
-    {
-      "version": "0.1.85",
-      "text": "Explorer: the active editor's file is revealed in the tree - folders expanded, selected, scrolled to"
     }
   ],
   "changes_url": "changes.json"
