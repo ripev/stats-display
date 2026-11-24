@@ -1,12 +1,32 @@
 {
-  "version": "0.1.87",
-  "url": "0.1.87/workpad-0.1.87.zip",
-  "sha256": "01187c0f6ed80b59e44f9465743585e46b3aa6be3dccd28290ef404165707d29",
-  "size": 6477621,
-  "exe_sha256": "47ed409847fa524e7cc20259fc4858ac216b6f1053f05a9b94d7e4462691eba3",
-  "published": "2026-11-24T10:56:29Z",
-  "commit": "64eb4769a97811752a16ba3f22935547823c97ed",
+  "version": "0.1.92",
+  "url": "0.1.92/workpad-0.1.92.zip",
+  "sha256": "11eaa2a8512e5fb4c9611470d79159a63290fb990738743a4a94941139286f59",
+  "size": 6532272,
+  "exe_sha256": "ab9b0f210931c7a249760334c0b81bef4892f9de1f2ff4b13cca09bffc04c6f5",
+  "published": "2026-11-24T12:31:57Z",
+  "commit": "0a2847936c4bf8748b26c13905d9be6c18aa55be",
   "changes": [
+    {
+      "version": "0.1.92",
+      "text": "Diff tab: text is selected in either column and copied"
+    },
+    {
+      "version": "0.1.91",
+      "text": "Side bar lists scroll sideways: a bar at the bottom and Shift+wheel"
+    },
+    {
+      "version": "0.1.90",
+      "text": "Git history: commits stay open, and the active tab's commit file is revealed"
+    },
+    {
+      "version": "0.1.89",
+      "text": "Build: stop only the dist copy of workpad.exe before replacing it"
+    },
+    {
+      "version": "0.1.88",
+      "text": "Editor groups: split the editor right or down, again from a split one"
+    },
     {
       "version": "0.1.87",
       "text": "Explorer: a new file or folder may be a path, a/b/c.txt - the missing folders on the way are made"
@@ -26,26 +46,6 @@
     {
       "version": "0.1.83",
       "text": "State: state.toml is replaced whole under a lock between windows, a broken tail dropped on reading"
-    },
-    {
-      "version": "0.1.82",
-      "text": "Terminal: a mouse selection starts where the button went down, not a cell aside where the drag was recognized"
-    },
-    {
-      "version": "0.1.81",
-      "text": "State: values of another version's state.toml are dropped one by one, the recent folders and tabs kept"
-    },
-    {
-      "version": "0.1.80",
-      "text": "Title rows: a long title runs under the buttons, veiled there, in every view - not into them in a narrow panel"
-    },
-    {
-      "version": "0.1.79",
-      "text": "GitLab view: merge requests and issues, the branch's last pipeline with run / cancel / retry, job logs in the editor"
-    },
-    {
-      "version": "0.1.78",
-      "text": "Cleanup by clippy: the terminal unlocked before laying out its text, UTF-8 checked once on opening a file"
     }
   ],
   "changes_url": "changes.json"
