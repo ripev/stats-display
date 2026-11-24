@@ -1,12 +1,16 @@
 {
-  "version": "0.1.112",
-  "url": "0.1.112/stats-display-0.1.112.zip",
-  "sha256": "5b160675d25cf78c47cb888da50d0da57a8f1669bc328f88b3bc12d0ab71a04e",
-  "size": 4502378,
-  "exe_sha256": "5224a9aa485c3969e910e8f8e98f1f532d663865497819f4cf1ba3ab36abdc15",
-  "published": "2026-11-19T17:49:04Z",
-  "commit": "2b200a7d9744f2ae1908e84390977c8db4090de3",
+  "version": "0.1.113",
+  "url": "0.1.113/stats-display-0.1.113.zip",
+  "sha256": "2768a34fa601c868f95a61496d824649fa547d2b8e86286ca89f9d95de17ecfd",
+  "size": 4554888,
+  "exe_sha256": "c9c797cc60b370833c77b0877d4884acef3ae980f37657b4adcda60c4d0d6708",
+  "published": "2026-11-24T08:54:54Z",
+  "commit": "54afadc9538fb729a43f3767a4eebcbfcb149f66",
   "changes": [
+    {
+      "version": "0.1.113",
+      "text": "Vacations: a sixth module shows colleagues' vacations as a week Gantt chart, with reminders and a tray line"
+    },
     {
       "version": "0.1.112",
       "text": "Tempo: Ctrl+T shows today's worklogs and the timer as the day scale; a selected interval opens the worklog form"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.104",
       "text": "Tempo: the worklog form opened from the shown window (day scale, an event's menu) keeps the view and returns to it"
-    },
-    {
-      "version": "0.1.103",
-      "text": "My events: finished events go above the rest and show only when scrolling up, the screen opens on the first not finished one"
     }
   ],
   "changes_url": "changes.json"
