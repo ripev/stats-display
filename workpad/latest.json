@@ -1,12 +1,24 @@
 {
-  "version": "0.1.84",
-  "url": "0.1.84/workpad-0.1.84.zip",
-  "sha256": "e3c040c00ffe7d25ab3270e5cbda261ea2798344fc6aebf11df7165b1d851246",
-  "size": 6475970,
-  "exe_sha256": "09994ff2a378d426a34eba11d25ae9448e2bdd246aacf0c2750f4ea152fb32bd",
-  "published": "2026-11-23T07:34:11Z",
-  "commit": "b8acc83d49a5c2049d150bd8c45083b881e7f1ce",
+  "version": "0.1.87",
+  "url": "0.1.87/workpad-0.1.87.zip",
+  "sha256": "01187c0f6ed80b59e44f9465743585e46b3aa6be3dccd28290ef404165707d29",
+  "size": 6477621,
+  "exe_sha256": "47ed409847fa524e7cc20259fc4858ac216b6f1053f05a9b94d7e4462691eba3",
+  "published": "2026-11-24T10:56:29Z",
+  "commit": "64eb4769a97811752a16ba3f22935547823c97ed",
   "changes": [
+    {
+      "version": "0.1.87",
+      "text": "Explorer: a new file or folder may be a path, a/b/c.txt - the missing folders on the way are made"
+    },
+    {
+      "version": "0.1.86",
+      "text": "Explorer: dragging with Ctrl held copies - into the same folder as \"a copy.txt\""
+    },
+    {
+      "version": "0.1.85",
+      "text": "Explorer: the active editor's file is revealed in the tree - folders expanded, selected, scrolled to"
+    },
     {
       "version": "0.1.84",
       "text": "Git history: a commit's context menu copies its whole message or its hash"
@@ -34,18 +46,6 @@
     {
       "version": "0.1.78",
       "text": "Cleanup by clippy: the terminal unlocked before laying out its text, UTF-8 checked once on opening a file"
-    },
-    {
-      "version": "0.1.77",
-      "text": "Git history: commits not pushed yet in a brighter color of their own - the dot, the subject and the arrow"
-    },
-    {
-      "version": "0.1.76",
-      "text": "Git history: the branch and tag labels before the commit's subject"
-    },
-    {
-      "version": "0.1.75",
-      "text": "Git history: the subject starts just past its own row's lanes, not the widest row's of the whole history"
     }
   ],
   "changes_url": "changes.json"
