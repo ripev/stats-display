@@ -1,12 +1,16 @@
 {
-  "version": "0.1.113",
-  "url": "0.1.113/stats-display-0.1.113.zip",
-  "sha256": "2768a34fa601c868f95a61496d824649fa547d2b8e86286ca89f9d95de17ecfd",
-  "size": 4554888,
-  "exe_sha256": "c9c797cc60b370833c77b0877d4884acef3ae980f37657b4adcda60c4d0d6708",
-  "published": "2026-11-24T08:54:54Z",
-  "commit": "54afadc9538fb729a43f3767a4eebcbfcb149f66",
+  "version": "0.1.114",
+  "url": "0.1.114/stats-display-0.1.114.zip",
+  "sha256": "eacceb59adb8b8fab6b80181122f80a8addfdaea9dde60b555ae221b13da47ce",
+  "size": 4561717,
+  "exe_sha256": "f52d2c9348871ff049bfac0a1b9ebf8c16bf350237bd6a6dcc45a3a24ada42d6",
+  "published": "2026-11-24T09:04:09Z",
+  "commit": "bb9ddc281e095667e9a4fc22233cb5d2c6bde3c6",
   "changes": [
+    {
+      "version": "0.1.114",
+      "text": "Vacations: names are suggested from everyone ever entered, even with no vacations left"
+    },
     {
       "version": "0.1.113",
       "text": "Vacations: a sixth module shows colleagues' vacations as a week Gantt chart, with reminders and a tray line"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.105",
       "text": "UI: a plain hyphen instead of the em dash in tooltips, labels, window titles, messages and settings texts"
-    },
-    {
-      "version": "0.1.104",
-      "text": "Tempo: the worklog form opened from the shown window (day scale, an event's menu) keeps the view and returns to it"
     }
   ],
   "changes_url": "changes.json"
