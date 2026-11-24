@@ -1,12 +1,16 @@
 {
-  "version": "0.1.92",
-  "url": "0.1.92/workpad-0.1.92.zip",
-  "sha256": "11eaa2a8512e5fb4c9611470d79159a63290fb990738743a4a94941139286f59",
-  "size": 6532272,
-  "exe_sha256": "ab9b0f210931c7a249760334c0b81bef4892f9de1f2ff4b13cca09bffc04c6f5",
-  "published": "2026-11-24T12:31:57Z",
-  "commit": "0a2847936c4bf8748b26c13905d9be6c18aa55be",
+  "version": "0.1.93",
+  "url": "0.1.93/workpad-0.1.93.zip",
+  "sha256": "e4b8431c6dab41f04d083e0c83d5d3e96b86471455cf816f31aef98d6dc78c78",
+  "size": 6571303,
+  "exe_sha256": "d8cbb0f4f1d4f5fe59affccd5516b459aeaff904465198f409fe0373cb2321a7",
+  "published": "2026-11-24T12:51:15Z",
+  "commit": "cce8a4864c737c0392179c40649cf88ee9a820df",
   "changes": [
+    {
+      "version": "0.1.93",
+      "text": "Forgejo in the GitLab view: the branch's Actions run, pull requests, issues"
+    },
     {
       "version": "0.1.92",
       "text": "Diff tab: text is selected in either column and copied"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.84",
       "text": "Git history: a commit's context menu copies its whole message or its hash"
-    },
-    {
-      "version": "0.1.83",
-      "text": "State: state.toml is replaced whole under a lock between windows, a broken tail dropped on reading"
     }
   ],
   "changes_url": "changes.json"
