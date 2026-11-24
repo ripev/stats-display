@@ -1,12 +1,16 @@
 {
-  "version": "0.1.93",
-  "url": "0.1.93/workpad-0.1.93.zip",
-  "sha256": "e4b8431c6dab41f04d083e0c83d5d3e96b86471455cf816f31aef98d6dc78c78",
-  "size": 6571303,
-  "exe_sha256": "d8cbb0f4f1d4f5fe59affccd5516b459aeaff904465198f409fe0373cb2321a7",
-  "published": "2026-11-24T12:51:15Z",
-  "commit": "cce8a4864c737c0392179c40649cf88ee9a820df",
+  "version": "0.1.94",
+  "url": "0.1.94/workpad-0.1.94.zip",
+  "sha256": "5eefbc3081f79ffc6ef51b658da402354bd191ef45311cce167d21639c807f42",
+  "size": 6577265,
+  "exe_sha256": "f509ae0ee889b107c9f22f02667f27fe8c043e1c5700dd01fb2451db0a52c56f",
+  "published": "2026-11-24T13:01:37Z",
+  "commit": "f7b656575d9232a9ec7faee0e078a3254292b2f2",
   "changes": [
+    {
+      "version": "0.1.94",
+      "text": "Diff tab: the text is highlighted by the file's language, as in the editor"
+    },
     {
       "version": "0.1.93",
       "text": "Forgejo in the GitLab view: the branch's Actions run, pull requests, issues"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.85",
       "text": "Explorer: the active editor's file is revealed in the tree - folders expanded, selected, scrolled to"
-    },
-    {
-      "version": "0.1.84",
-      "text": "Git history: a commit's context menu copies its whole message or its hash"
     }
   ],
   "changes_url": "changes.json"
