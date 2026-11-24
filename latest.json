@@ -1,12 +1,16 @@
 {
-  "version": "0.1.114",
-  "url": "0.1.114/stats-display-0.1.114.zip",
-  "sha256": "eacceb59adb8b8fab6b80181122f80a8addfdaea9dde60b555ae221b13da47ce",
-  "size": 4561717,
-  "exe_sha256": "f52d2c9348871ff049bfac0a1b9ebf8c16bf350237bd6a6dcc45a3a24ada42d6",
-  "published": "2026-11-24T09:04:09Z",
-  "commit": "bb9ddc281e095667e9a4fc22233cb5d2c6bde3c6",
+  "version": "0.1.115",
+  "url": "0.1.115/stats-display-0.1.115.zip",
+  "sha256": "3ea6fff789c80a9399d89492115184a229b5f7cf2837f661bc8db54250186d10",
+  "size": 4567239,
+  "exe_sha256": "0c76e48ab5b9917564702f40c2b816229e74786b0d759e145661f43965c9e01a",
+  "published": "2026-11-24T20:30:32Z",
+  "commit": "96760542312fa10f92dc85b5bef8378043976e35",
   "changes": [
+    {
+      "version": "0.1.115",
+      "text": "Appearance: choose the tray icon (colored or flat light) and the accent color"
+    },
     {
       "version": "0.1.114",
       "text": "Vacations: names are suggested from everyone ever entered, even with no vacations left"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.106",
       "text": "Tempo: logging time from an own event deletes it (a one-off event, or just this occurrence of a series) instead of marking it done"
-    },
-    {
-      "version": "0.1.105",
-      "text": "UI: a plain hyphen instead of the em dash in tooltips, labels, window titles, messages and settings texts"
     }
   ],
   "changes_url": "changes.json"
