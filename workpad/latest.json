@@ -1,12 +1,20 @@
 {
-  "version": "0.1.102",
-  "url": "0.1.102/workpad-0.1.102.zip",
-  "sha256": "0ed613070dc62f4641c0a6d2a3cc668d685c91cc1437d85f6f5a9aa1edc92bcb",
-  "size": 6629325,
-  "exe_sha256": "70ea7a894844156c9c8ffaf3a434b3f1fe95bd8ebe5801f843c78b76cfcbe4b2",
-  "published": "2026-11-24T20:08:48Z",
-  "commit": "23da349b42807be7be5fc244d469e64aabd7efec",
+  "version": "0.1.104",
+  "url": "0.1.104/workpad-0.1.104.zip",
+  "sha256": "14ca8655cc6bfc3b06839206569dc12326f5752020c061e057266a29d064d34b",
+  "size": 6631808,
+  "exe_sha256": "f72b9fbf7538fb51b4ae986b6f43dfa95e1e9eb7fd9896e698f46f0577245ea0",
+  "published": "2026-11-25T20:59:45Z",
+  "commit": "0620d226ac5b1abc0c4ca255c46145c635457476",
   "changes": [
+    {
+      "version": "0.1.104",
+      "text": "GitLab: job logs follow their end in every group, with a switch"
+    },
+    {
+      "version": "0.1.103",
+      "text": "Lists: row text fades under what sits on the right, as in the headers"
+    },
     {
       "version": "0.1.102",
       "text": "Tests: the explorer watcher test survives a slow inotify under wine"
@@ -38,14 +46,6 @@
     {
       "version": "0.1.95",
       "text": "Explorer: an icon for Nginx configs (nginx.conf, *.nginx, sites-available/...)"
-    },
-    {
-      "version": "0.1.94",
-      "text": "Diff tab: the text is highlighted by the file's language, as in the editor"
-    },
-    {
-      "version": "0.1.93",
-      "text": "Forgejo in the GitLab view: the branch's Actions run, pull requests, issues"
     }
   ],
   "changes_url": "changes.json"
