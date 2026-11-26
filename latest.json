@@ -1,12 +1,16 @@
 {
-  "version": "0.1.115",
-  "url": "0.1.115/stats-display-0.1.115.zip",
-  "sha256": "3ea6fff789c80a9399d89492115184a229b5f7cf2837f661bc8db54250186d10",
-  "size": 4567239,
-  "exe_sha256": "0c76e48ab5b9917564702f40c2b816229e74786b0d759e145661f43965c9e01a",
-  "published": "2026-11-24T20:30:32Z",
-  "commit": "96760542312fa10f92dc85b5bef8378043976e35",
+  "version": "0.1.116",
+  "url": "0.1.116/stats-display-0.1.116.zip",
+  "sha256": "3e9414e71ca0aae2af9193efb635418e3e9a22f0a27638d1cec4ced9a3ed8cba",
+  "size": 4576501,
+  "exe_sha256": "333d3f54205a7804097f6901b8a194cae7a0c30243ab24a39e54c27717f87092",
+  "published": "2026-11-26T10:28:30Z",
+  "commit": "19830458b4b05d2544448030fb1781b8258c5036",
   "changes": [
+    {
+      "version": "0.1.116",
+      "text": "Tempo: the worklog form fills in the issue a meeting's or own event's time usually goes to"
+    },
     {
       "version": "0.1.115",
       "text": "Appearance: choose the tray icon (colored or flat light) and the accent color"
@@ -42,10 +46,6 @@
     {
       "version": "0.1.107",
       "text": "Day scale: dragging an own event's edge inwards shortens it instead of moving the block"
-    },
-    {
-      "version": "0.1.106",
-      "text": "Tempo: logging time from an own event deletes it (a one-off event, or just this occurrence of a series) instead of marking it done"
     }
   ],
   "changes_url": "changes.json"
